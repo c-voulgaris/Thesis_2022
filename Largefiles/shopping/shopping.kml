@@ -1,0 +1,4705 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="POI£¨购物£©" id="POI£¨购物£©">
+	<SimpleField name="Style" type="string"></SimpleField>
+</Schema>
+<Folder><name>POI£¨购物£©</name>
+  <Placemark>
+	<name>新世纪超市</name>
+	<description>浙江省嘉兴市海宁市上塘景苑小区60幢1-2号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.50158760405174,30.43528751710619</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>庆云商场</name>
+	<description>浙江省嘉兴市海宁市大桥北路27号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.61102307354744,30.4969567472229</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海宁大厦万佳商场</name>
+	<description>浙江省嘉兴市海宁市长安镇青年路7号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.44587841259576,30.456919488973831</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>长安城市广场</name>
+	<description>浙江省嘉兴市海宁市长安路188号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.44621352758072,30.442923661780988</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>华联大多市生活广场</name>
+	<description>浙江省嘉兴市海宁市海洲街道海昌南路525号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68846727082442,30.495002135927283</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>供销广场</name>
+	<description>浙江省嘉兴市桐乡市高桥镇学前路南新城花苑南区北京联华附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.55426126751324,30.551582404814113</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>乐活广场</name>
+	<description>浙江省嘉兴市海宁市海宁大道与江南大道交叉口东南角</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6717298801899,30.494430257161859</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中国皮革城A座</name>
+	<description>浙江省嘉兴市海宁市海州西路201号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.66596377203267,30.507274459165149</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>银泰城</name>
+	<description>浙江省嘉兴市海宁市海昌南路363号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6897022941295,30.502912627550032</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>裕嘉隆购物中心</name>
+	<description>浙江省嘉兴市桐乡市汇丰村裕丰路178号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.59196442917275,30.540377415011783</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鸿翔生活广场</name>
+	<description>浙江省嘉兴市海宁市青年路80-3号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.44156968970866,30.454993498140936</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>华联大厦(工人路)</name>
+	<description>浙江省嘉兴市海宁市硖石镇工人路58号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68881672788314,30.530646408029757</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>城际领杭商厦</name>
+	<description>浙江省嘉兴市海宁市</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.43999360037891,30.442164745852534</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>爱琴海购物公园</name>
+	<description>浙江省嘉兴市海宁市工人路85号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68792153651448,30.529379394044014</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东兴商厦</name>
+	<description>浙江省嘉兴市桐乡市高桥镇亭桥镇亭桥路233号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.51915847349356,30.542821517265384</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉凯城·城市客厅</name>
+	<description>浙江省嘉兴市桐乡市崇福镇语溪大道528号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.42650751040634,30.5267737509289</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>佳源中心广场</name>
+	<description>浙江省嘉兴市海宁市长安路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.43673758648984,30.439403659302407</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>百盛购物中心</name>
+	<description>浙江省嘉兴市海宁市西寺桥商贸中心步行街</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68541214956538,30.532327884337455</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>龙城商业广场</name>
+	<description>浙江省嘉兴市海宁市海昌路1号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68240289746599,30.534652575281807</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万朵城</name>
+	<description>浙江省嘉兴市海宁市海昌南路555号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68852227441455,30.493660433322759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>崇福商业中心</name>
+	<description>浙江省嘉兴市桐乡市</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.42960148847942,30.531614323270251</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>名城广场(高崇线)</name>
+	<description>浙江省嘉兴市桐乡市320国道西100米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.4449112077539,30.534868559191203</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>银泰百货(海宁店)</name>
+	<description>浙江省嘉兴市海宁市海洲街道海昌南路365号海宁银泰城一层135铺位</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6888069794917,30.503000157744065</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>正翔商业广场(文苑南路)</name>
+	<description>浙江省嘉兴市海宁市联合路97号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6791175081906,30.522129757305496</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>卡森国际广场</name>
+	<description>浙江省嘉兴市海宁市工人路106号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68507280373932,30.532440457377348</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新世纪超市</name>
+	<description>浙江省嘉兴市海宁市上塘景苑小区60幢1-2号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.50158760405174,30.43528751710619</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>庆云商场</name>
+	<description>浙江省嘉兴市海宁市大桥北路27号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.61102307354744,30.4969567472229</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海宁大厦万佳商场</name>
+	<description>浙江省嘉兴市海宁市长安镇青年路7号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.44587841259576,30.456919488973831</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>长安城市广场</name>
+	<description>浙江省嘉兴市海宁市长安路188号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.44621352758072,30.442923661780988</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>华联大多市生活广场</name>
+	<description>浙江省嘉兴市海宁市海洲街道海昌南路525号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68846727082442,30.495002135927283</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>供销广场</name>
+	<description>浙江省嘉兴市桐乡市高桥镇学前路南新城花苑南区北京联华附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.55426126751324,30.551582404814113</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>乐活广场</name>
+	<description>浙江省嘉兴市海宁市海宁大道与江南大道交叉口东南角</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6717298801899,30.494430257161859</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中国皮革城A座</name>
+	<description>浙江省嘉兴市海宁市海州西路201号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.66596377203267,30.507274459165149</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>银泰城</name>
+	<description>浙江省嘉兴市海宁市海昌南路363号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6897022941295,30.502912627550032</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>裕嘉隆购物中心</name>
+	<description>浙江省嘉兴市桐乡市汇丰村裕丰路178号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.59196442917275,30.540377415011783</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鸿翔生活广场</name>
+	<description>浙江省嘉兴市海宁市青年路80-3号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.44156968970866,30.454993498140936</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>华联大厦(工人路)</name>
+	<description>浙江省嘉兴市海宁市硖石镇工人路58号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68881672788314,30.530646408029757</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>城际领杭商厦</name>
+	<description>浙江省嘉兴市海宁市</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.43999360037891,30.442164745852534</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>爱琴海购物公园</name>
+	<description>浙江省嘉兴市海宁市工人路85号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68792153651448,30.529379394044014</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东兴商厦</name>
+	<description>浙江省嘉兴市桐乡市高桥镇亭桥镇亭桥路233号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.51915847349356,30.542821517265384</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉凯城·城市客厅</name>
+	<description>浙江省嘉兴市桐乡市崇福镇语溪大道528号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.42650751040634,30.5267737509289</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>佳源中心广场</name>
+	<description>浙江省嘉兴市海宁市长安路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.43673758648984,30.439403659302407</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>百盛购物中心</name>
+	<description>浙江省嘉兴市海宁市西寺桥商贸中心步行街</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68541214956538,30.532327884337455</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>龙城商业广场</name>
+	<description>浙江省嘉兴市海宁市海昌路1号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68240289746599,30.534652575281807</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万朵城</name>
+	<description>浙江省嘉兴市海宁市海昌南路555号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68852227441455,30.493660433322759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>崇福商业中心</name>
+	<description>浙江省嘉兴市桐乡市</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.42960148847942,30.531614323270251</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>名城广场(高崇线)</name>
+	<description>浙江省嘉兴市桐乡市320国道西100米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.4449112077539,30.534868559191203</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>银泰百货(海宁店)</name>
+	<description>浙江省嘉兴市海宁市海洲街道海昌南路365号海宁银泰城一层135铺位</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6888069794917,30.503000157744065</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>正翔商业广场(文苑南路)</name>
+	<description>浙江省嘉兴市海宁市联合路97号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6791175081906,30.522129757305496</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>卡森国际广场</name>
+	<description>浙江省嘉兴市海宁市工人路106号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68507280373932,30.532440457377348</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>百汇·海隆广场二期A区</name>
+	<description>浙江省嘉兴市海宁市文苑路399号百汇·海隆广场二期</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.67544375592888,30.537591586972528</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海宁大厦</name>
+	<description>浙江省嘉兴市海宁市海昌街道海昌路68号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68241116608483,30.531119732503512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>恒兴商厦</name>
+	<description>浙江省嘉兴市海宁市文宗南路357号(客运中心加油站对面)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.67668576426307,30.49347111681098</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海宁市华联购物中心(塘南丽景店)</name>
+	<description>浙江省嘉兴市海宁市塘南西路70号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68326040740857,30.519617910298823</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海宁海汇辅料商场</name>
+	<description>浙江省嘉兴市海宁市海昌街道洛隆路236号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.67550863809294,30.537401527972865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>名力都会广场</name>
+	<description>浙江省嘉兴市海宁市钱江西路128号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.67825366351153,30.504716814657961</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东兴商厦(崇福分公司)</name>
+	<description>浙江省嘉兴市桐乡市崇福镇崇德东路118号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.43419185298167,30.530810499519177</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>银泰百货B座</name>
+	<description>浙江省嘉兴市海宁市海昌南路365号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68911252403461,30.501468086687687</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>夏微宜百货</name>
+	<description>浙江省嘉兴市桐乡市崇福镇崇德中路35号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.43098465280688,30.529645961859252</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海宁金泰城</name>
+	<description>浙江省嘉兴市海宁市新苑路189号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.690932152326,30.500937105798268</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海宁中国皮革城北区</name>
+	<description>浙江省嘉兴市海宁市海昌路22之号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6809009519316,30.534025551175151</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海宁皮城</name>
+	<description>浙江省嘉兴市海宁市海宁大道与硖仲路交叉路口往西约50米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.66125253242791,30.530469042816812</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海港大厦(文宗南路)</name>
+	<description>浙江省嘉兴市海宁市江南大道2195号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.67693314817167,30.494847246743809</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>地下商场</name>
+	<description>浙江省嘉兴市海宁市工人路122号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6852874482254,30.531645334342464</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>屠甸·东方广场</name>
+	<description>浙江省嘉兴市桐乡市商贸街3号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.61513869615305,30.578651950983183</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>天润发时代</name>
+	<description>浙江省嘉兴市桐乡市灵安路127号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.51931697245261,30.593324478678294</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中华皮革大世界</name>
+	<description>浙江省嘉兴市海宁市海昌路28号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68239899840674,30.533497966955942</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>金益购物广场</name>
+	<description>浙江省嘉兴市海宁市海昌街道皮革加工区5号楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.67133840044421,30.54775793696874</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海宁市中央商场</name>
+	<description>浙江省嘉兴市海宁市芙蓉横街46号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68937886412067,30.528163244696454</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>宝龙广场</name>
+	<description>浙江省杭州市钱塘区文翰路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.37978332001471,30.314338388968519</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>杭州湾广场</name>
+	<description>浙江省嘉兴市海宁市启潮路6号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.4117795445238,30.383445187186965</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中国·桐乡世贸中心</name>
+	<description>浙江省嘉兴市桐乡市世纪大道235号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.57175955755164,30.618313529830147</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>印象许村新天地</name>
+	<description>浙江省嘉兴市海宁市大桥路99号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.36799232962778,30.434875194600693</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>吾悦广场</name>
+	<description>浙江省嘉兴市桐乡市振兴东路439号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.58634953605109,30.630675774498769</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>奥特莱斯名品汇</name>
+	<description>浙江省嘉兴市桐乡市庆丰南路585号豪盛商务广场一楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.54790788942378,30.612537610854254</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>下沙奥特莱斯广场</name>
+	<description>浙江省嘉兴市海宁市文海北路1199号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.37937873371391,30.346683189944994</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>银泰百货海宁鹃湖店(金钻天地)</name>
+	<description>浙江省嘉兴市海宁市海州东路241号金钻商业中心</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.71329861248331,30.513645526356324</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>温客隆生活购物广场</name>
+	<description>浙江省杭州市钱塘区临江工业园长风路创慧园</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.58953978952405,30.295121108917023</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>杭州金沙印象城</name>
+	<description>浙江省杭州市钱塘区金沙大道97号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.33171221022334,30.310901405900861</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>龙湖杭州金沙天街</name>
+	<description>浙江省杭州市钱塘区金沙大道560号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32267501515365,30.312412441520884</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>豪临百货</name>
+	<description>浙江省杭州市临平区水车河弄10-2</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29703410104486,30.426806329886233</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>同福金月商场</name>
+	<description>浙江省嘉兴市桐乡市凤鸣街道同福路318号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.46062049755815,30.575734826004656</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东湖国际商业中心</name>
+	<description>浙江省杭州市临平区星光街1082号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31015493598809,30.433428737990653</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>临江商贸城</name>
+	<description>浙江省杭州市钱塘区纬六路1077号附近,临江工业园区纬六路(临江佳苑西北)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.58735593008484,30.291501011303559</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新天地商城</name>
+	<description>浙江省嘉兴市海宁市天顺路与镇中路交叉口西南50米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.36179642158568,30.43692851514103</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>三福(吾悦广场)</name>
+	<description>浙江省嘉兴市桐乡市振兴东路439号吾悦广场2F层</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.58689084991974,30.630955821216872</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>福雷德广场</name>
+	<description>浙江省杭州市钱塘区文泽路99号(近金沙数码港)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.34260043070431,30.318976347234376</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>佳惠家购物中心</name>
+	<description>浙江省嘉兴市海宁市八号桥商业街与安澜路交叉路口往东南约50米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.40018813788181,30.362138694353813</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>欧嘉购物中心(洲泉店)</name>
+	<description>浙江省嘉兴市桐乡市湘溪大道945号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.34514565878256,30.584736704244108</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鸿翔时尚广场</name>
+	<description>浙江省嘉兴市海宁市硖石街道工人路126号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68429441734435,30.531373216270765</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>曼斯顿广场</name>
+	<description>浙江省嘉兴市海宁市长安镇盐仓启潮路8号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.4104719659752,30.383186454664887</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>广弘美家广场</name>
+	<description>浙江省嘉兴市桐乡市世纪大道388号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.56752815594653,30.61766328660595</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>大江东宝龙广场</name>
+	<description>浙江省杭州市钱塘区江东大道2333号(地铁7/8号线青六中路站A/E口旁)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.49028858583185,30.305744398671536</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>君临广场</name>
+	<description>浙江省杭州市临平区南大街271号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30477473124016,30.407059318227759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>和丰商城</name>
+	<description>浙江省嘉兴市海宁市长安镇时和路697号下沙奥特莱斯旁</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.37935899077337,30.343677660626128</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新美商城</name>
+	<description>浙江省杭州市钱塘区下沙经济开发区四号大街西子阳光新城2幢</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.34265119422074,30.308938518263421</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新湾商贸城</name>
+	<description>浙江省杭州市钱塘区致远路184号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.5340484373633,30.281765533215683</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>莱蒙商业中心</name>
+	<description>浙江省杭州市临平区南苑街道藕花洲大街303号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29379366714515,30.417343664772716</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>普泰广场</name>
+	<description>浙江省嘉兴市海宁市漕河泾路88号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.66155213783584,30.577559865839618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>义蓬购物中心</name>
+	<description>浙江省杭州市钱塘区义蓬镇义蓬中路501号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.48557905279451,30.273838785756396</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>圈圈里</name>
+	<description>浙江省杭州市钱塘区下沙水云街文淙北路口</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.38382007986239,30.331962350450084</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>水云和达城</name>
+	<description>浙江省杭州市钱塘区杭州经济技术开发区水云街255号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.38544000617969,30.331577505211481</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>乐慧购物中心</name>
+	<description>浙江省杭州市临平区南兴路138号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31039516893053,30.414363560690319</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>银泰百货(下沙店)</name>
+	<description>浙江省杭州市钱塘区海达南路397号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32097058075486,30.301239051348926</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>伟鹏商业城</name>
+	<description>浙江省杭州市临平区临平东湖街道星光街1221号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32234004068739,30.438742416850268</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>宽塘生活广场</name>
+	<description>浙江省嘉兴市海宁市治江路与潮起路交叉路口往西约50米(潮韵苑东南侧)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.78774270217446,30.337140769623645</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>和合广场</name>
+	<description>浙江省杭州市临平区临平南苑街道东湖南路59号(人民广场东侧)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30545383543755,30.418658632598607</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>银泰百货(杭州临平店)</name>
+	<description>浙江省杭州市临平区东湖街道北大街132号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29891093141492,30.425136579040469</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鑫锦绣购物中心(五丰店)</name>
+	<description>浙江省嘉兴市海盐县五丰路与南王公路交叉路口往东北约150米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.76102632744879,30.611176813517535</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>润达广场</name>
+	<description>浙江省杭州市临平区宏达路1号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29293483698386,30.463091052142858</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>余临百货</name>
+	<description>浙江省杭州市临平区新大地广场D区小商品市场2层</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29490664840793,30.426399883119579</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>久久商业广场</name>
+	<description>浙江省嘉兴市海宁市东勤线东郊小区碧云北路东侧约150米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.70637620430124,30.54948344204708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>永利广场</name>
+	<description>浙江省嘉兴市桐乡市梧桐街振兴中路20号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.55048291362846,30.631194745713721</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>五丰商贸中心</name>
+	<description>浙江省嘉兴市海盐县吊顶配件西北100米(南王公路北)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.7633927790008,30.601963951584302</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>上品折扣</name>
+	<description>浙江省杭州市钱塘区下沙经济技术开发区4号大街505号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.34350809004911,30.307763146692988</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>百润发购物中心(新丰路)</name>
+	<description>浙江省嘉兴市桐乡市人民路菜市场二楼百润发超市</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.55896599992224,30.608603494367742</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>头蓬商场</name>
+	<description>浙江省杭州市钱塘区义蓬镇头蓬街道216号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.50189380025401,30.310903427809588</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>民通购物广场</name>
+	<description>浙江省嘉兴市桐乡市河山镇世纪新路58号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.36126525916231,30.635135996630869</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>下沙商贸城</name>
+	<description>浙江省杭州市钱塘区1号大街4号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.33482267539262,30.308593841111428</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>银泰城</name>
+	<description>浙江省杭州市临平区世纪大道118号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29776785415258,30.406928428881091</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>阳光购物中心(子恺西路)</name>
+	<description>浙江省嘉兴市桐乡市子恺西路100-102</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.43854151655525,30.626358912618628</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>王店综合商场</name>
+	<description>浙江省嘉兴市秀洲区王店镇兴乐路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.71580720832992,30.628622272628629</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新锦阳购物中心</name>
+	<description>浙江省杭州市钱塘区松乔街292号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.34653826592498,30.327890296487009</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉利购物中心</name>
+	<description>浙江省嘉兴市桐乡市迎凤路523-527号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.56003099329243,30.635999658751238</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>桐乡商业广场D区</name>
+	<description>浙江省嘉兴市桐乡市中华路与王家门路交叉路口西北侧(桐乡商业广场)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.54336925607709,30.618132061399411</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>太平洋时代百货</name>
+	<description>浙江省嘉兴市桐乡市庆丰中路8-16号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.54700280597164,30.63411280057969</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>艺博乐淘城</name>
+	<description>浙江省嘉兴市海宁市下沙文海北路1050号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.38423399352286,30.356466415294115</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>河山商业中心</name>
+	<description>浙江省嘉兴市桐乡市河山镇联恒路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.36159631493196,30.63069144497187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新卉购物中心</name>
+	<description>浙江省嘉兴市桐乡市庆丰中路85号10幢4b楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.54892660027981,30.636343602624269</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>下沙商贸城(东区)</name>
+	<description>浙江省杭州市钱塘区4号大街1号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.33551564006332,30.308511559407943</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东兴日杂百货</name>
+	<description>浙江省嘉兴市桐乡市</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.54695054508309,30.635658033972209</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>香港城</name>
+	<description>浙江省嘉兴市桐乡市润丰步行街与迎凤路交叉口以北</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.56262780504412,30.639234962770612</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>华元欢乐城</name>
+	<description>浙江省杭州市临平区迎宾路与望梅交汇处西北角</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29590480988814,30.398278252162001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>复兴文化广场</name>
+	<description>浙江省嘉兴市桐乡市复兴北路368号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.53959308499012,30.635351565100169</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>英冠天地</name>
+	<description>浙江省杭州市钱塘区义蓬中路373号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.48514773343356,30.269739893087017</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>秋意浓商务大楼</name>
+	<description>浙江省杭州市临平区迎宾路319-321号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29924168477194,30.411027099296327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>金地.都会钱塘</name>
+	<description>浙江省杭州市钱塘区水云街与文淙北路交叉口金地宋都都会</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.38448002039,30.33198796779471</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新大地</name>
+	<description>浙江省杭州市临平区保健路68-1号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29568978807856,30.425772761417715</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>双联购物中心</name>
+	<description>浙江省嘉兴市海宁市许村镇双联村双联小区锦苑四区四栋</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.34139280128751,30.431056464781246</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>千禧百福购物中心</name>
+	<description>浙江省杭州市临平区北大街215号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29702209591859,30.427043295961319</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>永涛购物广场</name>
+	<description>浙江省嘉兴市桐乡市大麻镇科洲路近光明路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.35104676889561,30.503180730435673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东投新悦广场</name>
+	<description>浙江省杭州市钱塘区2号大街511号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.35696582749686,30.311828682475614</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>义蓬购物中心2期</name>
+	<description>浙江省杭州市钱塘区青兴路义蓬购物中心西侧约90米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.48335958869505,30.273673256631991</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中国·桐乡世贸中心1期</name>
+	<description>浙江省嘉兴市桐乡市世纪大道235号中国·桐乡世贸中心</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.5744020922463,30.618529856308729</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东东和达城</name>
+	<description>浙江省杭州市钱塘区10号大街与之江东路交叉处</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.38459780534397,30.298533141899668</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>文泽和达城</name>
+	<description>浙江省杭州市钱塘区2号大街与5号交汇处(地铁c出口旁)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.34316426199011,30.311476299209453</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>花园购物中心</name>
+	<description>浙江省嘉兴市海宁市花园村文化活动室(花园路南)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.36359906826192,30.397399721174406</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>银都自选商场(博陆店)</name>
+	<description>浙江省杭州市临平区运河街道博陆育士路62号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.3036055326272,30.500889622576707</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>浙商时代购物中心</name>
+	<description>浙江省嘉兴市海宁市许村镇翁家埠芦花组37号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.33915415758705,30.38170373736828</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>杭州东沙商业中心</name>
+	<description>浙江省杭州市钱塘区下沙天城东路159号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32937811142443,30.307115296359317</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>佳尚购物(启潮路店)</name>
+	<description>浙江省嘉兴市海宁市海宁农业对外综合开发区启潮路60号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.37768672071688,30.353530464318563</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>仙侠居商业广场</name>
+	<description>浙江省嘉兴市海宁市仙侠路113号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.8032760044418,30.320201529845431</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>丰乐商业区</name>
+	<description>浙江省杭州市钱塘区下沙经济技术开发区文渊路87号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.33363198962377,30.314449346271509</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>桐乡商业广场F区</name>
+	<description>浙江省嘉兴市桐乡市梧桐街道中华路桐乡商业广场南100米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.54349560159156,30.618201300118066</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>象牙广场</name>
+	<description>浙江省杭州市临平区临平东湖北路100-7-206</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30030830244193,30.435499824541335</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>爱琴海购物公园</name>
+	<description>浙江省嘉兴市桐乡市学前路288号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.55049736821832,30.638470653013169</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>杭州·临平新天地</name>
+	<description>浙江省杭州市临平区河南埭路108号(近藕花洲大街东段)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30405635816312,30.423376078192351</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>余之城</name>
+	<description>浙江省杭州市临平区南苑街道迎宾路501号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29981815919241,30.396487096089157</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新世界广场柏丽城</name>
+	<description>浙江省嘉兴市桐乡市润丰步行街西29号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.55647981111744,30.632351708683572</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>名店广场</name>
+	<description>浙江省嘉兴市桐乡市洲泉镇公园路218号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.35121860911232,30.573944586636934</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉信百货</name>
+	<description>浙江省嘉兴市桐乡市鱼行街19之1-9号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.54678805880201,30.6363893955848</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>杭州浙宝城</name>
+	<description>浙江省杭州市钱塘区九堡镇德胜路2888号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29200992583448,30.31687666849869</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>许巷商贸城</name>
+	<description>浙江省嘉兴市海宁市东西大道与海潮路交叉路口往北约200米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.36395292235063,30.407336242572956</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>英冠百货</name>
+	<description>浙江省杭州市钱塘区蓬和路25号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.48535952124102,30.270019493411485</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>桐乡e购商城</name>
+	<description>浙江省嘉兴市桐乡市屠甸路与振华路交叉路口西侧(汇宇·都市花园)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.56374285603624,30.626949712345311</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东兴商厦</name>
+	<description>浙江省嘉兴市桐乡市钱林集镇高家湾永福桥19号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.49920410505867,30.624224468289015</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>宝龙商业中心(宝龙城市广场店)</name>
+	<description>浙江省杭州市钱塘区江干区经济开发区2号大街与25号大街交汇处东北角宝龙城市广场</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.38048817457924,30.313862932785426</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>青六商务大厦义蓬购物中心</name>
+	<description>浙江省杭州市钱塘区青兴路义蓬购物中心西侧约150米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.48279142521858,30.273685587781102</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东东城购物广场</name>
+	<description>浙江省杭州市钱塘区10号大街27号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.3843558136561,30.2986432652433</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>理想银泰城七栋王</name>
+	<description>浙江省杭州市临平区世纪大道临平理想银泰城七栋</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29795162780059,30.406939120790163</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>建设飞达一站式购物广场</name>
+	<description>浙江省嘉兴市秀洲区王建公路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.64237282932361,30.617307916663833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>麦客隆购物中心</name>
+	<description>浙江省杭州市临平区南兴路138号乐慧购物中心2层</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31093138601412,30.41435956787052</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>银泰百货-怪兽充电</name>
+	<description>浙江省杭州市钱塘区海达南路397号银泰百货F6</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32070600812044,30.301015584216618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>余之城1座</name>
+	<description>浙江省杭州市临平区迎宾路与临东路交叉路口东南侧(余之城)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29855778549999,30.395979325384531</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>宝龙商业中心6幢</name>
+	<description>浙江省杭州市钱塘区学府街与学林支路交叉路口往西北约150米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.38115199525367,30.314156427512682</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>宝龙商业中心4幢</name>
+	<description>浙江省杭州市钱塘区学林支路与学府街交叉路口往西北约100米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.38192783446439,30.314204895688327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>乐慧</name>
+	<description>浙江省杭州市临平区</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.31006663379743,30.414522133998638</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>下沙商贸城(西区)</name>
+	<description>浙江省杭州市钱塘区4号大街1号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.33452813325138,30.308430411269516</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>联华购物中心</name>
+	<description>浙江省嘉兴市桐乡市稻乐路347号弄</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.56071744939879,30.647501661258286</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>宝龙商业中心7幢</name>
+	<description>浙江省杭州市钱塘区学府街与学林支路交叉路口往西北约200米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.38062311561397,30.31417379712882</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>建设商场</name>
+	<description>浙江省嘉兴市秀洲区龙源路与和睦路交叉路口西侧</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.64364066060587,30.616552099393438</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Live Mall(GOUMEE)</name>
+	<description>浙江省杭州市钱塘区金沙大道晓城天地3幢1楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32513121933765,30.312173755396632</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东源商厦</name>
+	<description>浙江省杭州市钱塘区下沙经济开发区10号大街19号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.38477478420528,30.298653030434799</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>首游港广场</name>
+	<description>浙江省杭州市钱塘区</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32678465535732,30.312101592485032</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>杭州银沙商贸城A区</name>
+	<description>浙江省杭州市钱塘区学林街与月雅路交叉路口往东约100米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29945425434333,30.316193693835814</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>余城3座</name>
+	<description>浙江省杭州市临平区</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30056316263021,30.397014719743577</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>义蓬购物中心西区</name>
+	<description>浙江省杭州市钱塘区义蓬中路501号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.48486734371902,30.273662698794745</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>四季广场3幢</name>
+	<description>浙江省杭州市钱塘区下沙德胜快速路高沙文盛公寓北</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.33266077358077,30.322794093436112</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>松合时代商城4幢</name>
+	<description>浙江省杭州市钱塘区学林街1713号松合时代商城</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.30605339114443,30.317322010417428</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>十六街区商城</name>
+	<description>浙江省杭州市钱塘区2号大街863号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.34792877823668,30.311580062994867</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>弗雷德广场地下商城</name>
+	<description>浙江省杭州市钱塘区文泽路99号福雷德广场B1层</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.34248958007545,30.319061532937752</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>龙湖杭州江东天街(建设中)</name>
+	<description>浙江省杭州市钱塘区青六北路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.49115536229114,30.312797134431158</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万悦城蜗牛广场(装修中)</name>
+	<description>浙江省杭州市临平区东湖北路和湖潭路交汇处</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.29443917380739,30.462762762988525</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海盐嘉凯城</name>
+	<description>浙江省嘉兴市海盐县海兴东路12号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.94811956928154,30.538155645041769</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>苏宁易购(海盐勤俭南路店)</name>
+	<description>浙江省嘉兴市海盐县武原镇勤俭南路118号2层</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.9361948165252,30.512524003242937</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>勤俭百货</name>
+	<description>浙江省嘉兴市海盐县武原镇勤俭北路490号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.93707055029672,30.517717866433649</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>百联购物广场</name>
+	<description>浙江省嘉兴市平湖市乍浦镇天妃路127-133号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.0898308800687,30.604921240005368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>百姓百货商场</name>
+	<description>浙江省嘉兴市海盐县武原街道秀水路2号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.93531618377814,30.518188699383717</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>精致生活广场</name>
+	<description>浙江省嘉兴市海盐县勤俭南路165号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.93738002957195,30.51594388807229</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海盐润家广场</name>
+	<description>浙江省嘉兴市海盐县环城南路与联翔路交叉口</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.90543406804488,30.515258988896996</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉凯城·城市客厅</name>
+	<description>浙江省嘉兴市海盐县新桥北路231号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.94756298342233,30.538647672114184</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>达源城市广场</name>
+	<description>浙江省嘉兴市平湖市乍浦镇天妃路500号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.08759922283303,30.611989868409385</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>优活新天地</name>
+	<description>浙江省嘉兴市海盐县百尺北路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.93114141422238,30.542095415678546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>时代广场</name>
+	<description>浙江省嘉兴市海盐县市场路115号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92646074771299,30.526712055041823</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>金旺广场</name>
+	<description>浙江省嘉兴市平湖市乍浦镇雅山中路174号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.08940696175139,30.605833949397855</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>易购商业中心</name>
+	<description>浙江省嘉兴市海盐县海港大道1935号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.00110242847444,30.595020944789866</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海盐吾悦广场</name>
+	<description>浙江省嘉兴市海盐县枣园西路与大曲路交汇处</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.91992291835186,30.530227396707776</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>世纪年华购物广场</name>
+	<description>浙江省嘉兴市海盐县西塘桥街道西场北路汽车站配套商业用房3号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.99392957565554,30.595564482528605</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>北岸中心广场</name>
+	<description>浙江省嘉兴市海盐县东海大道1899号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.98825913097633,30.598795465968674</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>世纪金源购物中心</name>
+	<description>浙江省宁波市慈溪市金源大道19号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.22645681813987,30.330790000056457</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>景茂商业广场</name>
+	<description>浙江省嘉兴市海盐县恒锋路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.93796934691507,30.558493542549133</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>好一家超市</name>
+	<description>浙江省嘉兴市平湖市乍浦镇南湾路131-135号-1</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.09687252031154,30.605679818113551</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>天妃百联购物广场</name>
+	<description>浙江省嘉兴市平湖市天妃路1052号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.08653271762317,30.624352059421213</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>金源商业广场</name>
+	<description>浙江省嘉兴市海盐县北荡佳苑恒丰路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.93846830110634,30.557915859867233</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>通元阳光购物中心</name>
+	<description>浙江省嘉兴市海盐县通元镇龙舌嘴路56-58号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.84435398406477,30.45644155640413</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>南北湖商业广场</name>
+	<description>浙江省嘉兴市海盐县南浦路585号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.87744468985572,30.387519872777837</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>杭州湾兆丰商贸中心</name>
+	<description>浙江省宁波市慈溪市杭州湾大道88号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.19872276602347,30.284669071688864</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>利时广场</name>
+	<description>浙江省宁波市慈溪市中兴一路与机电路交叉口北150米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.28724494866145,30.293810590601801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海盐嘉凯城</name>
+	<description>浙江省嘉兴市海盐县海兴东路12号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.94811956928154,30.538155645041769</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>苏宁易购(海盐勤俭南路店)</name>
+	<description>浙江省嘉兴市海盐县武原镇勤俭南路118号2层</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.9361948165252,30.512524003242937</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>勤俭百货</name>
+	<description>浙江省嘉兴市海盐县武原镇勤俭北路490号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.93707055029672,30.517717866433649</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>百联购物广场</name>
+	<description>浙江省嘉兴市平湖市乍浦镇天妃路127-133号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.0898308800687,30.604921240005368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>百姓百货商场</name>
+	<description>浙江省嘉兴市海盐县武原街道秀水路2号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.93531618377814,30.518188699383717</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>精致生活广场</name>
+	<description>浙江省嘉兴市海盐县勤俭南路165号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.93738002957195,30.51594388807229</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海盐润家广场</name>
+	<description>浙江省嘉兴市海盐县环城南路与联翔路交叉口</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.90543406804488,30.515258988896996</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉凯城·城市客厅</name>
+	<description>浙江省嘉兴市海盐县新桥北路231号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.94756298342233,30.538647672114184</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>达源城市广场</name>
+	<description>浙江省嘉兴市平湖市乍浦镇天妃路500号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.08759922283303,30.611989868409385</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>优活新天地</name>
+	<description>浙江省嘉兴市海盐县百尺北路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.93114141422238,30.542095415678546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>时代广场</name>
+	<description>浙江省嘉兴市海盐县市场路115号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92646074771299,30.526712055041823</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>金旺广场</name>
+	<description>浙江省嘉兴市平湖市乍浦镇雅山中路174号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.08940696175139,30.605833949397855</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>易购商业中心</name>
+	<description>浙江省嘉兴市海盐县海港大道1935号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.00110242847444,30.595020944789866</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海盐吾悦广场</name>
+	<description>浙江省嘉兴市海盐县枣园西路与大曲路交汇处</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.91992291835186,30.530227396707776</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>世纪年华购物广场</name>
+	<description>浙江省嘉兴市海盐县西塘桥街道西场北路汽车站配套商业用房3号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.99392957565554,30.595564482528605</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>北岸中心广场</name>
+	<description>浙江省嘉兴市海盐县东海大道1899号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.98825913097633,30.598795465968674</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>世纪金源购物中心</name>
+	<description>浙江省宁波市慈溪市金源大道19号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.22645681813987,30.330790000056457</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>景茂商业广场</name>
+	<description>浙江省嘉兴市海盐县恒锋路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.93796934691507,30.558493542549133</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>好一家超市</name>
+	<description>浙江省嘉兴市平湖市乍浦镇南湾路131-135号-1</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.09687252031154,30.605679818113551</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>天妃百联购物广场</name>
+	<description>浙江省嘉兴市平湖市天妃路1052号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.08653271762317,30.624352059421213</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>金源商业广场</name>
+	<description>浙江省嘉兴市海盐县北荡佳苑恒丰路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.93846830110634,30.557915859867233</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>通元阳光购物中心</name>
+	<description>浙江省嘉兴市海盐县通元镇龙舌嘴路56-58号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.84435398406477,30.45644155640413</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>南北湖商业广场</name>
+	<description>浙江省嘉兴市海盐县南浦路585号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.87744468985572,30.387519872777837</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>杭州湾兆丰商贸中心</name>
+	<description>浙江省宁波市慈溪市杭州湾大道88号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.19872276602347,30.284669071688864</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>利时广场</name>
+	<description>浙江省宁波市慈溪市中兴一路与机电路交叉口北150米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.28724494866145,30.293810590601801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>城中购物(于城店)</name>
+	<description>浙江省嘉兴市海盐县于城镇文昌路10号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.85265506001072,30.533686505711874</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>庵东购物中心</name>
+	<description>浙江省宁波市慈溪市七二三大街333-337号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.21484920062125,30.270608604490924</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>世纪金源购物中心(A03)</name>
+	<description>浙江省宁波市慈溪市金源大道19号世纪金源购物中心3楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.22520287797335,30.33140601227819</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>海伦购物中心</name>
+	<description>浙江省嘉兴市海盐县通元镇韩家桥兴元路8号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.84453934118663,30.468998587495182</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>通元广场</name>
+	<description>浙江省嘉兴市海盐县红星路99号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.84312027768722,30.460464386887455</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>南洋商城</name>
+	<description>浙江省宁波市慈溪市中兴一路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.28903505319852,30.291052304036921</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>供销商厦</name>
+	<description>浙江省嘉兴市南湖区青龙路136号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.91404252361001,30.617947867443718</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新世纪购物(慈溪长河店)</name>
+	<description>浙江省宁波市慈溪市长河镇沧田村高王路18号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.20084074240476,30.264967132110876</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>佰佳乐购物广场</name>
+	<description>浙江省宁波市慈溪市金慈路89号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.27097187178364,30.315519385041927</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>城北邻里中心(建设中)</name>
+	<description>浙江省嘉兴市海盐县</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.94721780638012,30.527101240547577</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>富荟广场</name>
+	<description>江苏省苏州市吴江区人民路与文化路交叉口西北50米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.52719439102331,30.840128558280444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>欧得隆购物中心</name>
+	<description>浙江省嘉兴市秀洲区新塍镇西文桥村西文桥路525号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.573321393109,30.822702751813818</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>欧凯乐生活购物广场</name>
+	<description>江苏省苏州市吴江区铜罗富乡村富乡大道1200号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.52668580527373,30.863152047827494</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>亿利购物中心(盛泽店)</name>
+	<description>江苏省苏州市吴江区南三环和西二环交叉路口</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.62055363059559,30.867803951623358</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>好易购购物中心(南三环路)</name>
+	<description>江苏省苏州市吴江区南三环路与508乡道交叉口西100米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.60933753765093,30.866972238485939</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>林海商场</name>
+	<description>江苏省苏州市吴江区桃源镇桃花源大道758号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.48900098253259,30.803690823763127</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉兴新塍商城</name>
+	<description>浙江省嘉兴市秀洲区胜利路249号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.60838710305542,30.803634709290417</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>佳源中心广场</name>
+	<description>浙江省嘉兴市秀洲区新塍镇</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.61307287068843,30.796441305445871</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>佳源·新塍中心广场</name>
+	<description>浙江省嘉兴市秀洲区新塍镇虹桥路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.61257217906939,30.796938432153144</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东茂商业广场</name>
+	<description>江苏省苏州市吴江区舜湖西路西环路口(盛泽第二中学西南1500米处)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6355578827867,30.906203915431973</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万隆广场</name>
+	<description>浙江省嘉兴市秀洲区虹桥路765号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.61396390057365,30.800467360663024</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>湖畔新天地</name>
+	<description>江苏省苏州市吴江区盛泽镇潜龙渠公园</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6069732129112,30.910041540730237</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新乐时尚生活广场</name>
+	<description>江苏省苏州市吴江区震泽镇塔影路36号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.51135040908784,30.906010608732952</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>财富中心购物公园</name>
+	<description>江苏省苏州市吴江区西二环路附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.61959676768322,30.90296544985171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>盛泽凤凰荟购物中心</name>
+	<description>江苏省苏州市吴江区武威路588号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.60527459771765,30.900897826785176</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>上海新多美购物中心</name>
+	<description>浙江省嘉兴市秀洲区高照街道新乐路364、366、368、370、372、374、376号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.63724064241002,30.751946872002797</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>衡悦广场</name>
+	<description>江苏省苏州市吴江区舜新中路锦源假日酒店附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.65463750268971,30.906780987821087</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>八都友谊生活广场</name>
+	<description>江苏省苏州市吴江区八都新马路53号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.44470161441645,30.916967230060788</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>震泽人民商场</name>
+	<description>江苏省苏州市吴江区</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.50895993439244,30.911950154885794</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>盛泽人民商场</name>
+	<description>江苏省苏州市吴江区盛泽镇舜湖中路268号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.65495803187439,30.90474259184143</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>美杰商城</name>
+	<description>江苏省苏州市吴江区市场路西白洋小区东南侧约170米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.63470367203938,30.900451582418942</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鑫绸都葡萄园购物中心</name>
+	<description>江苏省苏州市吴江区盛泽镇西二环路99号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.62190924879386,30.91686076662717</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>乌镇子夜商业中心</name>
+	<description>浙江省嘉兴市桐乡市子夜路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.49264138126125,30.739463954693989</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>镇南菜市场购物中心-收货区</name>
+	<description>江苏省苏州市吴江区目澜路89号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.66539854818421,30.895602216774865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>城市广场</name>
+	<description>江苏省苏州市吴江区市场路与滨河南路交汇处</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.65119771165901,30.900936734838673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>富荟广场</name>
+	<description>江苏省苏州市吴江区人民路与文化路交叉口西北50米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.52719439102331,30.840128558280444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>欧得隆购物中心</name>
+	<description>浙江省嘉兴市秀洲区新塍镇西文桥村西文桥路525号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.573321393109,30.822702751813818</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>欧凯乐生活购物广场</name>
+	<description>江苏省苏州市吴江区铜罗富乡村富乡大道1200号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.52668580527373,30.863152047827494</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>亿利购物中心(盛泽店)</name>
+	<description>江苏省苏州市吴江区南三环和西二环交叉路口</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.62055363059559,30.867803951623358</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>好易购购物中心(南三环路)</name>
+	<description>江苏省苏州市吴江区南三环路与508乡道交叉口西100米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.60933753765093,30.866972238485939</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>林海商场</name>
+	<description>江苏省苏州市吴江区桃源镇桃花源大道758号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.48900098253259,30.803690823763127</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉兴新塍商城</name>
+	<description>浙江省嘉兴市秀洲区胜利路249号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.60838710305542,30.803634709290417</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>佳源中心广场</name>
+	<description>浙江省嘉兴市秀洲区新塍镇</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.61307287068843,30.796441305445871</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>佳源·新塍中心广场</name>
+	<description>浙江省嘉兴市秀洲区新塍镇虹桥路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.61257217906939,30.796938432153144</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东茂商业广场</name>
+	<description>江苏省苏州市吴江区舜湖西路西环路口(盛泽第二中学西南1500米处)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6355578827867,30.906203915431973</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万隆广场</name>
+	<description>浙江省嘉兴市秀洲区虹桥路765号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.61396390057365,30.800467360663024</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>湖畔新天地</name>
+	<description>江苏省苏州市吴江区盛泽镇潜龙渠公园</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6069732129112,30.910041540730237</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新乐时尚生活广场</name>
+	<description>江苏省苏州市吴江区震泽镇塔影路36号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.51135040908784,30.906010608732952</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>财富中心购物公园</name>
+	<description>江苏省苏州市吴江区西二环路附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.61959676768322,30.90296544985171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>盛泽凤凰荟购物中心</name>
+	<description>江苏省苏州市吴江区武威路588号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.60527459771765,30.900897826785176</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>上海新多美购物中心</name>
+	<description>浙江省嘉兴市秀洲区高照街道新乐路364、366、368、370、372、374、376号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.63724064241002,30.751946872002797</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>衡悦广场</name>
+	<description>江苏省苏州市吴江区舜新中路锦源假日酒店附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.65463750268971,30.906780987821087</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>八都友谊生活广场</name>
+	<description>江苏省苏州市吴江区八都新马路53号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.44470161441645,30.916967230060788</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>震泽人民商场</name>
+	<description>江苏省苏州市吴江区</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.50895993439244,30.911950154885794</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>盛泽人民商场</name>
+	<description>江苏省苏州市吴江区盛泽镇舜湖中路268号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.65495803187439,30.90474259184143</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>美杰商城</name>
+	<description>江苏省苏州市吴江区市场路西白洋小区东南侧约170米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.63470367203938,30.900451582418942</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鑫绸都葡萄园购物中心</name>
+	<description>江苏省苏州市吴江区盛泽镇西二环路99号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.62190924879386,30.91686076662717</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>乌镇子夜商业中心</name>
+	<description>浙江省嘉兴市桐乡市子夜路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.49264138126125,30.739463954693989</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>镇南菜市场购物中心-收货区</name>
+	<description>江苏省苏州市吴江区目澜路89号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.66539854818421,30.895602216774865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>城市广场</name>
+	<description>江苏省苏州市吴江区市场路与滨河南路交汇处</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.65119771165901,30.900936734838673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>利国百货</name>
+	<description>江苏省苏州市吴江区东方中路229号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.65412030928296,30.909456370747524</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>尚嘉和购物中心</name>
+	<description>江苏省苏州市吴江区市场东路42号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.65107101352643,30.90022937987893</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>金城商业中心</name>
+	<description>江苏省苏州市吴江区舜湖西路159号(舜湖西路与温州路交接处)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6476182901918,30.903636550537904</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>富民商区</name>
+	<description>江苏省苏州市吴江区西环路930号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.63801008194253,30.904698009766165</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>盛泽广场</name>
+	<description>江苏省苏州市吴江区盛泽镇舜湖中路105号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.64833178820429,30.905685085074051</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>莺湖商城</name>
+	<description>江苏省苏州市吴江区</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6310028473345,30.978398834534094</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万客隆购物广场(408乡道)</name>
+	<description>江苏省苏州市吴江区南粤路10西南方向200米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.63301353957807,30.946083126088833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>盛泽东方丝绸市场祥盛商区B幢</name>
+	<description>江苏省苏州市吴江区市场东路祥盛商区东北50米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.64451210817755,30.902103842932306</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新百商场</name>
+	<description>浙江省嘉兴市桐乡市乌镇镇乌镇新华路257号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.49029579968284,30.745334907414652</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>发联生活购物中心(横街店)</name>
+	<description>浙江省湖州市南浔区南浔镇横街村西大桥南堍西面(浔横北路店面)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.42492108679619,30.792312456324069</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>智富城购物中心</name>
+	<description>浙江省嘉兴市秀洲区秀清路626号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68459914759976,30.761634246081989</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>金银岛商业广场</name>
+	<description>江苏省苏州市吴江区舜新中路与东方中路交汇处(大润发)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6547022364784,30.908477869077359</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东城商业广场</name>
+	<description>江苏省苏州市吴江区舜湖东路附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.66309768864353,30.903152190847358</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>吴江市盛泽镇市场路鹰翔城市广场</name>
+	<description>江苏省苏州市吴江区市场东路39号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.65072366009481,30.90050484675837</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>吴江区金城商业中心12幢</name>
+	<description>江苏省苏州市吴江区温州路金城商业中心</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.64728282391809,30.904758481061247</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>金城商业中心5幢</name>
+	<description>江苏省苏州市吴江区盛泽温州路金城商业中心5幢</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.64822115468675,30.903727432189402</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>泰国购物中心</name>
+	<description>江苏省苏州市吴江区盛泽镇华辉路1号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68927571261482,30.888834663641568</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>物流园百货商场</name>
+	<description>浙江省嘉兴市南湖区新月公寓二期文昌路沿街商店2147、2151、2155、2159号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.69585412548818,30.748583733452627</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>名都购物休闲商业广场</name>
+	<description>江苏省苏州市吴江区文广路御景豪庭东侧约50米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.53107415824357,31.013333922042953</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中关村广场(嘉兴店)</name>
+	<description>浙江省嘉兴市秀洲区中山西路1911号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6837260080041,30.759953715343833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>欧易尚购物中心</name>
+	<description>浙江省嘉兴市桐乡市龙翔大道211附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.51246138852798,30.674774251130412</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中威商业广场</name>
+	<description>江苏省苏州市吴江区东方中路313附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.66102136903716,30.909665270475507</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉兴·合乐城</name>
+	<description>浙江省嘉兴市南湖区中环东路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.77743062410848,30.757605837875317</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>平望时代广场</name>
+	<description>江苏省苏州市吴江区平望镇通运路68号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.63769849392281,30.980009935211218</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>江南大厦</name>
+	<description>浙江省嘉兴市南湖区中山东路481号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.7451183218801,30.765224784040605</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>恒隆商厦</name>
+	<description>浙江省嘉兴市秀洲区新区东升西路与大德路交叉口西200米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.69299863540273,30.780577484591682</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>惠买得生活购物广场</name>
+	<description>浙江省嘉兴市秀洲区禾兴北路1292号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.73636923969836,30.797958875959019</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉兴八佰伴(华府店)</name>
+	<description>浙江省嘉兴市南湖区城南路与由拳路交叉口</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.73122599905996,30.733248541872015</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>瑞洲购物中心</name>
+	<description>浙江省嘉兴市南湖区三元路28号锦绣农贸市场</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.75764831722057,30.782080284222687</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉润购物中心</name>
+	<description>浙江省嘉兴市南湖区秀洲新区金都佳苑紫薇苑7幢101-112室</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.78316200181069,30.776909441300301</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>木林森商贸城</name>
+	<description>浙江省嘉兴市秀洲区苏嘉路国际商贸区景佳花苑</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.70782548930615,30.875135919568628</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中国橫扇羊毛衫商城</name>
+	<description>江苏省苏州市吴江区太湖新城镇环河路1167号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.52809704509571,31.016864293891658</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>The five mall</name>
+	<description>浙江省嘉兴市南湖区新嘉街道建国北路748弄54号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.74450071043509,30.784932248624866</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>江南购物广场</name>
+	<description>浙江省嘉兴市秀洲区天星西路433号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.7534311022122,30.810523188487473</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>九曲里</name>
+	<description>浙江省嘉兴市南湖区中港路213号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.79103437017913,30.742536422956775</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>浙北大厦购物中心</name>
+	<description>浙江省湖州市南浔区南浔镇人瑞路9999号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.40495736592172,30.866971056539256</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>八佰伴购物中心(中山路店)</name>
+	<description>浙江省嘉兴市南湖区中山路1360号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.72783995259265,30.760720397284373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>天虹超市(嘉兴店)</name>
+	<description>浙江省嘉兴市秀洲区洪兴西路与新洲路交会处江南摩尔西区1-3层</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.7041959850084,30.764522674772863</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>奥玛生活购物广场</name>
+	<description>江苏省苏州市吴江区望湖路130号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.38925182126049,30.951630724800289</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>佳源中心广场</name>
+	<description>浙江省嘉兴市秀洲区07省道王江泾南方纺织城对面</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.70284744138841,30.882353640887604</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东兴生活广场</name>
+	<description>浙江省嘉兴市桐乡市庆丰北路与环城北路交汇处</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.5425689618953,30.656294915249781</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>文昌商厦</name>
+	<description>浙江省嘉兴市南湖区文昌路1999号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6983137890077,30.749481356519009</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万家汇城市广场(天润发玛特)</name>
+	<description>浙江省嘉兴市南湖区圣堂路139号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.70634284248506,30.714205493140085</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>戴梦得购物中心</name>
+	<description>浙江省嘉兴市南湖区禾兴南路520号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.74447653161431,30.762753123148464</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>王江泾镇新世纪百货商店</name>
+	<description>浙江省嘉兴市秀洲区王江泾镇鸿运路36号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.70783174318717,30.884103690199492</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>濮院国际贸易中心</name>
+	<description>浙江省嘉兴市桐乡市濮院镇工贸大道385号C栋</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.62258315167755,30.67202818588806</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>瑞洲购物中心(西马桥店)</name>
+	<description>浙江省嘉兴市南湖区建国北路748弄212号农贸市场二楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.74131215059357,30.783126607792443</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>南江路生活广场</name>
+	<description>浙江省嘉兴市南湖区九曲路902号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.80432782103365,30.745381468082535</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>名宏百货(步行街)</name>
+	<description>浙江省嘉兴市南湖区建国中路618号华庭街中亭地下1层</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.74803409201897,30.770345118943332</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>黎里招商场</name>
+	<description>江苏省苏州市吴江区浒泾北路54号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.7018935755886,30.996492640563453</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>客必多购物广场</name>
+	<description>浙江省嘉兴市南湖区余新镇新市路192号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.79217924817686,30.669879615758347</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鑫润购物中心</name>
+	<description>浙江省湖州市南浔区南浔镇适园西路南方时代广场2幢2103号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.40270333490672,30.867990856792474</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>江南摩尔购物中心西区</name>
+	<description>浙江省嘉兴市秀洲区洪兴西路1766号江南摩尔购物中心</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.70410509831338,30.764858626027166</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>华联吉盛多生活购物广场</name>
+	<description>浙江省嘉兴市秀洲区塘汇街道章园路559号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.78756666813561,30.790955735847625</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>亿利购物广场</name>
+	<description>江苏省苏州市吴江区盛泽镇北王路东郊菜场旁</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.67937474857457,30.906924952424596</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>丽丰购物中心(龙凤路)</name>
+	<description>浙江省嘉兴市南湖区龙凤路169号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.71736414970395,30.754326771870602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>港澳大厦精品世界</name>
+	<description>浙江省嘉兴市南湖区勤俭路961号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.74656115016977,30.767911345630846</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中央商业广场</name>
+	<description>江苏省苏州市吴江区横扇镇文广路87号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.53572286631506,31.013817945915374</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>国美电器</name>
+	<description>浙江省嘉兴市南湖区三环西路1218号嘉地广场负一楼B001</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.69608344035895,30.739780909791001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉兴经开万达广场</name>
+	<description>浙江省嘉兴市南湖区龙凤路与新盛西路交叉口</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.71386024220004,30.754919287605919</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>北京城购物广场</name>
+	<description>浙江省嘉兴市南湖区建国北路35号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.74982402514016,30.774775945300821</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉兴万达广场(广益路)</name>
+	<description>浙江省嘉兴市南湖区广益路1108号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.79842097762537,30.738217179731379</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>江南摩尔购物中心中区</name>
+	<description>浙江省嘉兴市秀洲区洪兴西路1766号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.70509955972508,30.76499415161026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>泰富世界城</name>
+	<description>浙江省嘉兴市南湖区文昌路1299号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.71505909559491,30.751027967714208</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>福美购物广场(北胜湾店)</name>
+	<description>浙江省嘉兴市秀洲区王江泾镇北胜湾胜利路80号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.71346175061278,30.803597540062036</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>电商购物城</name>
+	<description>浙江省湖州市南浔区南浔镇嘉业路679号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.42052148112494,30.870667356151213</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉地广场</name>
+	<description>浙江省嘉兴市南湖区广穹路会淘卫浴营销中心东侧约110米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.69987025487025,30.73616181797269</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>濮院·佳源中心广场</name>
+	<description>浙江省嘉兴市桐乡市桐星大道新汽车站对面</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.60073946265241,30.678014663183962</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>建国百货</name>
+	<description>浙江省嘉兴市南湖区建国南路137号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.74963965070167,30.766703226308856</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>协和广场</name>
+	<description>浙江省嘉兴市南湖区中环东路1728号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.77718858896513,30.754220344123677</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>阳光购物中心</name>
+	<description>浙江省嘉兴市南湖区中山东路1628号东菱大厦</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.72280708689502,30.760589330171328</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>阳光购物中心</name>
+	<description>浙江省嘉兴市南湖区中山东路1628号东菱大厦</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.72280708689502,30.760589330171328</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>世纪心美购物中心</name>
+	<description>浙江省嘉兴市秀洲区正原北路445号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.752193575143,30.824118276035062</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万丽广场</name>
+	<description>浙江省嘉兴市秀洲区秀园路686号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.68038264006134,30.760617509993253</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>大乐购购物中心</name>
+	<description>浙江省嘉兴市桐乡市城弘小区89号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.55902662048362,30.665111265695618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>环贸中心</name>
+	<description>浙江省嘉兴市桐乡市濮院镇工贸大道988号环贸商务楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.62111670977691,30.672318690702713</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>龙庄润商业广场</name>
+	<description>浙江省嘉兴市秀洲区禾兴北路656号汽车北站</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.74044584702148,30.788700754524669</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>梦多多小镇</name>
+	<description>浙江省嘉兴市秀洲区中山西路107号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.72074109041191,30.760258343997002</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>港澳商城</name>
+	<description>浙江省嘉兴市南湖区建国南路545号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.74866520252691,30.770083313447518</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新世界商贸城</name>
+	<description>浙江省湖州市南浔区南浔镇嘉业路与适园路交汇处西北角</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.41914288060568,30.874187953019238</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉兴商城(建国南路)</name>
+	<description>浙江省嘉兴市南湖区建国南路138号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.75034806955246,30.763421071613095</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中邦商业广场</name>
+	<description>浙江省嘉兴市秀洲区国贸路398号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.66246518014509,30.677930745309084</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>时代联华购物中心</name>
+	<description>浙江省嘉兴市秀洲区洪合镇泰旗路198号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.65959908165019,30.677478416441907</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>百润发购物中心</name>
+	<description>浙江省嘉兴市桐乡市秋实路220号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.55781613610205,30.664435702344957</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>恒大商业中心</name>
+	<description>浙江省嘉兴市秀洲区正阳西路555号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.75362970062896,30.816284036608561</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>三好购物中心</name>
+	<description>浙江省嘉兴市桐乡市稻乐路石家汇秋韵小区</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.55503271309418,30.668395367505966</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>国贸名品港</name>
+	<description>浙江省嘉兴市桐乡市濮院镇工贸大道888号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6225581756499,30.672074193168857</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>越秀银座商贸中心</name>
+	<description>浙江省嘉兴市南湖区越秀北路154号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.72868606357022,30.764307939774209</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>七都商厦</name>
+	<description>江苏省苏州市吴江区桩桥路408号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.38680125255975,30.955645362415041</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>浙北大厦(南浔店)</name>
+	<description>浙江省湖州市南浔区江南路73号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.41631425475961,30.876547052916983</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>旭辉广场-西区</name>
+	<description>浙江省嘉兴市南湖区中山东路666号旭辉广场3层</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.74256564135372,30.762937210086378</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>好美多购物中心(古窦泾店)</name>
+	<description>浙江省嘉兴市秀洲区油车港镇古窦泾塘杨路145号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.78796058922761,30.824191882386348</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>上品折扣(海盐塘路店)</name>
+	<description>浙江省嘉兴市南湖区海盐塘路商铺212号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.76084097024895,30.748666573405856</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>启鹏百货</name>
+	<description>浙江省嘉兴市南湖区新马路48-50号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.75245526554245,30.767993073336132</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>置地广场</name>
+	<description>浙江省嘉兴市桐乡市濮院镇齐宏路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.62153059797528,30.668238112000505</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>信源商业城</name>
+	<description>浙江省嘉兴市南湖区广益路1319号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.8069765561512,30.740205784333465</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>乐福时尚广场</name>
+	<description>浙江省嘉兴市秀洲区洪合镇嘉洪大道2199号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.64810752484412,30.678772970470455</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>泰安商业广场</name>
+	<description>浙江省湖州市南浔区南浔镇泰安路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.42206738058088,30.880022552002487</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>金地商贸中心</name>
+	<description>浙江省嘉兴市桐乡市中兴中路28号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.62446623417853,30.669062342969216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉城生活广场</name>
+	<description>浙江省嘉兴市南湖区长水街道新气象路924号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.74824801323619,30.735069548336085</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>圣元购物广场</name>
+	<description>浙江省嘉兴市秀洲区嘉洪大道2208号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6505929736482,30.676853423338709</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>汇金广场(景宜路)</name>
+	<description>浙江省嘉兴市南湖区广益路247号(近景宜路)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.7823427655043,30.740590498997953</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新东方商厦</name>
+	<description>浙江省嘉兴市南湖区建设街道禾兴南路833号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.74485810701528,30.767851400084503</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉兴经开万达广场-南漾楼</name>
+	<description>浙江省嘉兴市南湖区龙凤路与新盛西路交汇</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.71393620493798,30.754222565238649</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>美迪广场</name>
+	<description>浙江省嘉兴市南湖区余新镇余贤埭街8号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.7907147888139,30.669251721402372</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东兴商厦(朱家角桥)</name>
+	<description>浙江省嘉兴市桐乡市崇福镇崇德东路118号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.52703008177363,30.688726860709881</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>浔城惠购物中心</name>
+	<description>浙江省湖州市南浔区直港巷村浔城惠街1-100号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.38999879558679,30.859677404935031</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>南方新世界商业广场</name>
+	<description>浙江省湖州市南浔区南浔镇人瑞路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.40490431722603,30.866971039578445</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中兴广场</name>
+	<description>浙江省嘉兴市南湖区建国南路451号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.74960748409435,30.768657183189003</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>良三购物中心</name>
+	<description>浙江省嘉兴市秀洲区嘉桐线与寺浜路交叉路口往南约190米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.62642198908115,30.704881968562681</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万盛广场</name>
+	<description>浙江省嘉兴市秀洲区东升东路与东升西路交叉口西北150米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.72068955082214,30.779660049948234</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>平望时代广场8幢</name>
+	<description>江苏省苏州市吴江区通运东路与寺浜路交叉路口往西约100米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.63816076866713,30.979638427945126</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>江南·摩尔购物中心东区</name>
+	<description>浙江省嘉兴市秀洲区洪兴路1766号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.70612199768465,30.765258596552183</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>老佛爷购物中心</name>
+	<description>浙江省嘉兴市南湖区凌公塘路1120号(中环东路与凌公塘路交叉口)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.77543900640062,30.746741352864969</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中央商城(濮院大道)</name>
+	<description>浙江省嘉兴市桐乡市濮院镇中兴路387号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6255596371057,30.672614374084887</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>世纪商城</name>
+	<description>浙江省湖州市南浔区梅月路与江南路交叉口东50米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.41588059601068,30.876732588752873</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>龙祥购物中心</name>
+	<description>浙江省嘉兴市秀洲区洪合镇良三村张家浜19号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6259654953387,30.70566216132298</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>电商城</name>
+	<description>浙江省湖州市南浔区南浔镇人瑞路389号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.41978428222795,30.870152915235796</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>江苏平望商贸城</name>
+	<description>江苏省苏州市吴江区平望镇通运路32号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.63612530123164,31.001199848950154</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>好得利商厦</name>
+	<description>浙江省嘉兴市南湖区秀州路243号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.75232833978276,30.766603781139864</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>秀洲商场城</name>
+	<description>浙江省嘉兴市南湖区吉杨路副食品批发市场</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.72810189018564,30.75919902215465</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>温州街</name>
+	<description>浙江省嘉兴市桐乡市濮院镇中央商城</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.6246097908425,30.672485594230562</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>至尊湖滨商业广场</name>
+	<description>浙江省湖州市南浔区振浔路12-13号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.41758184507539,30.880588792491871</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>濮院供销合作社</name>
+	<description>浙江省嘉兴市桐乡市濮院镇凯旋路106号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.60711913455296,30.660260974030255</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东兴商厦</name>
+	<description>浙江省嘉兴市桐乡市</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.33757726306952,30.658794381405144</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉兴中港城</name>
+	<description>浙江省嘉兴市南湖区广益路555号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.78648192121045,30.74213813754271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>欧得隆购物广场(洪合店)</name>
+	<description>浙江省嘉兴市秀洲区洪合镇富民路495号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.65262548315052,30.6838464522009</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉兴市星禾广场</name>
+	<description>浙江省嘉兴市南湖区</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.75730545984105,30.741546529034668</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>吴越广场</name>
+	<description>江苏省苏州市吴江区吴越路与隐读线交叉路口往东南约250米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.37986855247959,30.938591658360654</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>华盛广场新领域</name>
+	<description>浙江省嘉兴市南湖区乌桥路与普民路交叉口西</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.77759117846965,30.728883826307893</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>供销社人民商场</name>
+	<description>浙江省嘉兴市南湖区庆丰路3号正西方向30米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.81268996258252,30.707711413592676</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>练市商业城</name>
+	<description>浙江省湖州市南浔区练市镇万兴路食品站302室</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.40282495316151,30.70871597658331</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>浙北大厦(东迁店)</name>
+	<description>浙江省湖州市南浔区东马北路附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.36730515568264,30.868940712543282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉凯城·城市客厅</name>
+	<description>浙江省湖州市南浔区双林凤凰文化广场旁</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.32873593068885,30.774370689461158</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>广通购物广场(南浔店)</name>
+	<description>浙江省湖州市南浔区经济开发区丁家港村丁家港新村强园路88号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.40731605183271,30.886039861533085</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>信泰商城</name>
+	<description>浙江省湖州市南浔区名流路(碧桂园天玺西南侧)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.39997421334529,30.869267682669133</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>友缘来购物中心</name>
+	<description>浙江省湖州市南浔区南浔镇东双线</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.36008150880383,30.799507333124811</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>星月广场(建设中)</name>
+	<description>江苏省苏州市吴江区月星家居西二环路999号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.61962507391868,30.898812858537902</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>江南摩尔购物中心(装修中)</name>
+	<description>浙江省嘉兴市秀洲区洪兴路1766号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.70508058524776,30.765035156395545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>姚氏广场(装修中)</name>
+	<description>浙江省嘉兴市南湖区建国南路317号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.74987675603246,30.766000632533686</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>圣隆余新中心(建设中)</name>
+	<description>浙江省嘉兴市南湖区新达路西50米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.80174614727684,30.666522523693196</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>佳源中心广场(建设中)</name>
+	<description>浙江省湖州市南浔区南浔大道与年丰西路交叉口</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.38815717096287,30.852232366015993</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>国际进口商品城</name>
+	<description>浙江省嘉兴市平湖市兴新公路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.09099847998749,30.852217438903171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉凯城·城市客厅</name>
+	<description>浙江省嘉兴市平湖市新埭镇虹桥路669号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.07900300712865,30.827100384046599</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万家福购物中心(嘉善大通店)</name>
+	<description>浙江省嘉兴市嘉善县惠民街道大通村通政路3号-1</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.02957720645931,30.815863492229649</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万安商业广场</name>
+	<description>上海市金山区朱泾公园路288号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.15762983971183,30.897665546321786</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>维也星购物广场</name>
+	<description>浙江省嘉兴市嘉善县姚庄镇加州阳光城万泰路2号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.97501267126077,30.913566879957877</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鎏园商业城</name>
+	<description>上海市金山区枫泾镇新泾路300弄48号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.00840413534182,30.891841368058341</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新都会商城</name>
+	<description>上海市金山区</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.16732516286086,30.888201183273338</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>太平洋百货商场(惠民店)</name>
+	<description>浙江省嘉兴市嘉善县东海路160-163</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.97131076570845,30.836265261094095</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>易家福购物广场(春晖路)</name>
+	<description>浙江省嘉兴市平湖市当湖街道祥中路428号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.03612654605166,30.705889119951912</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>银泰百货(嘉善店)</name>
+	<description>浙江省嘉兴市嘉善县嘉善大道399号置地广场</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92422912109259,30.827244978071466</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>未来广场</name>
+	<description>上海市金山区金龙新街601号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.16117879928272,30.88773396604898</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>金龙新世界广场</name>
+	<description>上海市金山区朱泾镇金龙新街458号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.16679804288015,30.888766860226163</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万联恒太城</name>
+	<description>浙江省嘉兴市嘉善县罗星街道嘉善大道688号万联城</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92306632824345,30.821148763308837</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>康隆广场</name>
+	<description>上海市金山区朱泾镇文化路85号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.15646151432274,30.897731353839962</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>太平洋百货商场(里泽店)</name>
+	<description>浙江省嘉兴市嘉善县宏泽路101号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.95227258830181,30.880391805612142</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鑫联购物中心</name>
+	<description>浙江省嘉兴市平湖市新仓镇芦川新街北侧(茉织华集团职工公寓3号楼底层东侧7间门面)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.18328803703406,30.733737132431131</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>金好多购物中心(南鹿店)</name>
+	<description>浙江省嘉兴市嘉善县姚庄镇南展路95号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.97665626239875,30.933688237332387</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万联购物中心</name>
+	<description>浙江省嘉兴市嘉善县</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92626947343651,30.820660152221528</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SMP星悦城</name>
+	<description>浙江省嘉兴市嘉善县中山西路118号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.91597049316779,30.843209270774373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉善商城广场</name>
+	<description>浙江省嘉兴市嘉善县金嘉大道与谈公北路交叉口西北方向120米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92587063660324,30.863710140515479</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>易初旺家购物中心</name>
+	<description>浙江省嘉兴市嘉善县姚庄镇兴业西路150号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.95272299532709,30.921152828925553</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>相伴宝生活广场</name>
+	<description>浙江省嘉兴市平湖市福臻路958号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.0083775177786,30.720709609874948</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>锦江百货(健康南路店)</name>
+	<description>浙江省嘉兴市嘉善县魏塘街道中山西路58号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.91687655184373,30.842547881600659</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>易佳鸿购物中心(嘉善城桥社区店)</name>
+	<description>浙江省嘉兴市嘉善县湾泾港小区8号城桥菜场路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.94395229593522,30.858138616094774</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>福来登新世纪百货商厦</name>
+	<description>上海市青浦区蒸淀镇蒸兴路229号福来登商厦</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.02350917624339,30.978141979775742</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>国际进口商品城</name>
+	<description>浙江省嘉兴市平湖市兴新公路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.09099847998749,30.852217438903171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉凯城·城市客厅</name>
+	<description>浙江省嘉兴市平湖市新埭镇虹桥路669号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.07900300712865,30.827100384046599</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万家福购物中心(嘉善大通店)</name>
+	<description>浙江省嘉兴市嘉善县惠民街道大通村通政路3号-1</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.02957720645931,30.815863492229649</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万安商业广场</name>
+	<description>上海市金山区朱泾公园路288号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.15762983971183,30.897665546321786</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>维也星购物广场</name>
+	<description>浙江省嘉兴市嘉善县姚庄镇加州阳光城万泰路2号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.97501267126077,30.913566879957877</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鎏园商业城</name>
+	<description>上海市金山区枫泾镇新泾路300弄48号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.00840413534182,30.891841368058341</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新都会商城</name>
+	<description>上海市金山区</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.16732516286086,30.888201183273338</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>太平洋百货商场(惠民店)</name>
+	<description>浙江省嘉兴市嘉善县东海路160-163</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.97131076570845,30.836265261094095</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>易家福购物广场(春晖路)</name>
+	<description>浙江省嘉兴市平湖市当湖街道祥中路428号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.03612654605166,30.705889119951912</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>银泰百货(嘉善店)</name>
+	<description>浙江省嘉兴市嘉善县嘉善大道399号置地广场</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92422912109259,30.827244978071466</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>未来广场</name>
+	<description>上海市金山区金龙新街601号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.16117879928272,30.88773396604898</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>金龙新世界广场</name>
+	<description>上海市金山区朱泾镇金龙新街458号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.16679804288015,30.888766860226163</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万联恒太城</name>
+	<description>浙江省嘉兴市嘉善县罗星街道嘉善大道688号万联城</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92306632824345,30.821148763308837</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>康隆广场</name>
+	<description>上海市金山区朱泾镇文化路85号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.15646151432274,30.897731353839962</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>太平洋百货商场(里泽店)</name>
+	<description>浙江省嘉兴市嘉善县宏泽路101号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.95227258830181,30.880391805612142</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鑫联购物中心</name>
+	<description>浙江省嘉兴市平湖市新仓镇芦川新街北侧(茉织华集团职工公寓3号楼底层东侧7间门面)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.18328803703406,30.733737132431131</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>金好多购物中心(南鹿店)</name>
+	<description>浙江省嘉兴市嘉善县姚庄镇南展路95号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.97665626239875,30.933688237332387</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万联购物中心</name>
+	<description>浙江省嘉兴市嘉善县</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92626947343651,30.820660152221528</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SMP星悦城</name>
+	<description>浙江省嘉兴市嘉善县中山西路118号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.91597049316779,30.843209270774373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉善商城广场</name>
+	<description>浙江省嘉兴市嘉善县金嘉大道与谈公北路交叉口西北方向120米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92587063660324,30.863710140515479</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>易初旺家购物中心</name>
+	<description>浙江省嘉兴市嘉善县姚庄镇兴业西路150号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.95272299532709,30.921152828925553</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>相伴宝生活广场</name>
+	<description>浙江省嘉兴市平湖市福臻路958号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.0083775177786,30.720709609874948</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>锦江百货(健康南路店)</name>
+	<description>浙江省嘉兴市嘉善县魏塘街道中山西路58号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.91687655184373,30.842547881600659</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>易佳鸿购物中心(嘉善城桥社区店)</name>
+	<description>浙江省嘉兴市嘉善县湾泾港小区8号城桥菜场路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.94395229593522,30.858138616094774</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>福来登新世纪百货商厦</name>
+	<description>上海市青浦区蒸淀镇蒸兴路229号福来登商厦</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.02350917624339,30.978141979775742</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>置地广场</name>
+	<description>浙江省嘉兴市嘉善县嘉善大道与阳光路交叉口北150米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92492308772022,30.8269493056927</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>瑞悦商业广场</name>
+	<description>浙江省嘉兴市嘉善县子胥路与阳光路交叉口西北100米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.90327613588457,30.827238157943842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>朋联国际购物中心</name>
+	<description>上海市青浦区蒸兴路253号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.02286626684447,30.978782359002778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉善商城旺德福商业中心3号楼</name>
+	<description>浙江省嘉兴市嘉善县嘉善商城旺德福商业中心3幢</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92505499317403,30.862766703221979</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>八佰伴</name>
+	<description>浙江省嘉兴市平湖市三港路与东方路交汇处西120米路南</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.03960116980299,30.699069330920818</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>香弄商城</name>
+	<description>浙江省嘉兴市平湖市县后底69号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.01374685344246,30.702572727330946</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉善万联太平洋购物中心</name>
+	<description>浙江省嘉兴市嘉善县嘉善大道601号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92317716507934,30.821181617992504</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>瑞丰国际商业广场</name>
+	<description>浙江省嘉兴市平湖市三港路与东方路交汇处西120米路南(第一人民医院对面)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.04079778282123,30.699851251584619</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>恒隆·嘉荟城</name>
+	<description>浙江省嘉兴市平湖市兴平一路299号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.00102221193359,30.709994092886063</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>平湖美树商业中心营销中心</name>
+	<description>浙江省嘉兴市平湖市建新路与苍南路交汇处</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.17915870176162,30.725131023549139</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新世纪购物中心</name>
+	<description>浙江省嘉兴市平湖市人民路1号楼底楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.0116145692118,30.700736862522788</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>优购大卖场</name>
+	<description>浙江省嘉兴市平湖市新仓镇(金健峰大酒店旁)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.19935740353799,30.760867706051712</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>梅谷商城</name>
+	<description>浙江省嘉兴市嘉善县健康路梅谷商场2楼282号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.91720711203692,30.843369124687463</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉善禾众商业广场</name>
+	<description>浙江省嘉兴市嘉善县人民大道1988号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.89070770381147,30.832102101487429</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉善商城旺德福商业中心2幢</name>
+	<description>浙江省嘉兴市嘉善县</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92486530507284,30.862531071796475</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>马路口商场</name>
+	<description>浙江省嘉兴市嘉善县中山西路8号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.91840475308419,30.842834342311171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>商业文化广场B区</name>
+	<description>浙江省嘉兴市平湖市环城东路21号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.02058123539565,30.701945520826371</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>东方大厦</name>
+	<description>浙江省嘉兴市嘉善县魏塘镇谈公北路18号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92503837314169,30.845993357827233</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>吾悦广场</name>
+	<description>浙江省嘉兴市平湖市南市路811号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.02248159000885,30.6809622813754</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>联江购物中心</name>
+	<description>上海市松江区华阳街中青网络家园旁</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.27010035520092,31.006795865740663</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>中百商都(新华中路店)</name>
+	<description>浙江省嘉兴市平湖市当湖街道新华中路203号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.01028328172885,30.70127553010628</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>兰桥休闲商业广场</name>
+	<description>上海市松江区方松街道江学路321弄50号北兰桥</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.20684392816011,31.032023077606464</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>大世界购物中心</name>
+	<description>浙江省嘉兴市平湖市建新路1附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.18099581448061,30.731055373227143</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鹿都国际购物广场</name>
+	<description>上海市松江区松汇中路568号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.2305912028901,31.007297109891166</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>易家中心</name>
+	<description>上海市金山区金卫镇城河路373号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.3237888885231,30.734057957546529</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>瑞鑫百货</name>
+	<description>上海市金山区卫零路555号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.33186612792801,30.729000134038294</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新理想广场</name>
+	<description>上海市松江区荣乐西路860号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.1922446806135,31.019266767842158</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>嘉善棉百购物中心</name>
+	<description>浙江省嘉兴市嘉善县西塘镇鹤溪路49号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.8467190086175,30.948378883548379</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>太平洋百货(干窑店)</name>
+	<description>浙江省嘉兴市嘉善县干窑镇叶新路308号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.88821444875916,30.888087996624133</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>乐家购物中心</name>
+	<description>上海市松江区中山街道松汇东路191号乐家超市</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.24178257331764,31.004549534219613</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>乐尚天地生活广场</name>
+	<description>上海市松江区南乐路456号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.29161980070063,31.027526971968562</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>申越广场</name>
+	<description>上海市松江区人民南路97号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.2239297567728,31.008418015004647</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>思致商业广场</name>
+	<description>上海市金山区山阳镇蒙山北路333弄</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.3318166851886,30.74730583682485</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>开元广场</name>
+	<description>浙江省嘉兴市嘉善县人民大道1023号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.91062744695917,30.831111902467629</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>三福</name>
+	<description>上海市松江区中山中路119号庙前街二楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.22935841194834,31.008748552890939</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>慕森国际广场</name>
+	<description>江苏省苏州市吴江区黎里镇芦墟芦莘大道777号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.84040508885907,31.030172726609067</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>光明·koko都乐汇</name>
+	<description>上海市金山区海汇街338号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.33381373540705,30.753273959792331</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>华联商场(解放中路店)</name>
+	<description>浙江省嘉兴市平湖市新华中路271东南方向50米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.01181174270077,30.702227558379857</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>好一家量贩(大桥店)</name>
+	<description>浙江省嘉兴市南湖区大桥镇夏霖路138号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.85274617266253,30.746890746882801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>万达广场(上海金山店)</name>
+	<description>上海市金山区龙皓路1088号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.33153549801881,30.756914349409207</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>欧富商业广场</name>
+	<description>上海市金山区山阳镇蒙山北路515号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.33146532434445,30.74902860674144</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>上海第一百货(松江店)</name>
+	<description>上海市松江区中山中路100号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.23116132731903,31.00924626681039</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鑫汇生活广场</name>
+	<description>上海市松江区环城路21号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.24698818320499,31.004696609952923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>戴梦得购物中心(大桥店)</name>
+	<description>浙江省嘉兴市南湖区大桥镇平湖塘花苑天宁路531-537</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.84655019101845,30.743805280776463</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>龙吟阁商场</name>
+	<description>浙江省嘉兴市平湖市独山港镇文化街40号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.15999880788623,30.669372136733234</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>易家缘城市购物中心</name>
+	<description>上海市松江区环城路550智择时尚精品公寓2楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.25028552731359,31.014303519485303</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>关帝庙商城(七彩花化妆美甲店)</name>
+	<description>浙江省嘉兴市平湖市新华中路271号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.01061796153546,30.702738828773857</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>瑞悦商业广场售展中心</name>
+	<description>浙江省嘉兴市嘉善县罗星街道子胥路644号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.90354803813781,30.827072181242087</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新丰购物中心</name>
+	<description>浙江省嘉兴市南湖区新丰镇丰南街64号和也健康睡眠</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.92376244580275,30.707573960148835</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>红金源广场</name>
+	<description>上海市金山区金山卫镇卫零路147号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.3348126531628,30.716463883375202</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>平高世贸中心商城</name>
+	<description>上海市松江区中山中路79弄1号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.23128446002728,31.008385838358343</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>平高广场</name>
+	<description>上海市松江区松江工业区环城路976弄1-58号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.23971044463282,31.015882507786838</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>良民生活广场</name>
+	<description>上海市金山区卫零北路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.32712516631574,30.747551600890407</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>大树汇众广场</name>
+	<description>浙江省嘉兴市南湖区兴民路352号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.82732156708533,30.813033431933682</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>鹿都国际商业广场B座</name>
+	<description>上海市松江区谷阳南路与中山中路交叉口西南方向160米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.23115344873618,31.007754142080078</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>平高企业集团·平高广场</name>
+	<description>上海市松江区九峰路118号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.22676199472593,31.018321265320335</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>三铭休闲广场</name>
+	<description>上海市松江区松江工业区松卫北路888号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.25706778553214,31.020493707386677</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>城东商业广场</name>
+	<description>上海市松江区松汇东路39弄2号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.24770916498778,31.003185443268016</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>大桥商场</name>
+	<description>浙江省嘉兴市南湖区大桥镇建国幼儿园(623村道西)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.8621428036609,30.776967467189856</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>采杰商业广场</name>
+	<description>上海市松江区车墩镇华阳桥车香路253号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.28106042480107,31.00834002947602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>乐都商业广场</name>
+	<description>上海市松江区乐都路481弄1-4号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.21283812738589,31.015173320238034</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>宜佰汇时代购物广场</name>
+	<description>浙江省嘉兴市平湖市独山港镇虎啸路11号2楼西侧</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.1593424473149,30.669910666545572</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>上海双高商务广场</name>
+	<description>上海市松江区叶政路451弄39号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.31376480588376,30.943780979424435</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>尚优玛特购物广场</name>
+	<description>上海市松江区车香路253号之1-2</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.28085574505654,31.008276323595563</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>云间新天地广场</name>
+	<description>上海市松江区中山东路249号(松江二中对面)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.24009519456673,31.007512513167278</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>丽人街</name>
+	<description>上海市松江区玉树路2559号飞航广场</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.2036300409397,31.011218917713936</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>碧乐时光·汾湖</name>
+	<description>江苏省苏州市吴江区芦墟镇南京路369号碧乐时光地锅饭店</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.85169547783408,31.030109808441956</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>E时代购物广场</name>
+	<description>江苏省苏州市吴江区新友路399号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.82501249864679,31.023841083773679</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>三铭广场</name>
+	<description>上海市松江区松卫北路888弄</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.25673178192559,31.022983395080434</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>颐思殿广场</name>
+	<description>上海市松江区松东路219弄1-40号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.25098596627282,31.018110137264237</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>天都时代广场</name>
+	<description>上海市金山区亭学路125附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.31546130973746,30.892985767442049</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>大洋百货</name>
+	<description>江苏省苏州市吴江区汾湖镇泰丰路572号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.83569396952436,31.01206884535819</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>慕森商业</name>
+	<description>江苏省苏州市吴江区东港路415附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.84183859635986,31.022122967868377</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>西塘恒隆商业广场</name>
+	<description>浙江省嘉兴市嘉善县南苑路与祥符路交叉口北150米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.89801016398839,30.943594162466283</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>泰晤士新乐坊</name>
+	<description>上海市松江区文诚路1480号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.19239891742193,31.031555826840719</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>欧德隆购物广场(七星店)</name>
+	<description>浙江省嘉兴市南湖区七星镇天声路209号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.82673971207988,30.820613104223945</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>奥特莱斯生活广场</name>
+	<description>江苏省苏州市吴江区南京路369号汾湖新天地3幢2F</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.85137286565802,31.030610004731997</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>荣丰生活广场</name>
+	<description>上海市松江区玉树路茸城运动中心西南侧约290米</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.20375392549278,31.014781994334506</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>四方商场</name>
+	<description>江苏省苏州市吴江区浦南路476号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.83597568843321,31.010382352254457</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>影剧商场</name>
+	<description>江苏省苏州市吴江区浦南路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.83621507995562,31.011637050538642</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>大树·汇众广场北区</name>
+	<description>浙江省嘉兴市南湖区</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>120.8273255786321,30.812996460059338</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>乐坊松汇生活广场-扶梯</name>
+	<description>上海市松江区松汇中路568号乐颂坊F2</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.23130552964361,31.007679265834195</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>方舟休闲广场</name>
+	<description>上海市松江区荣乐中路与谷阳北路交叉口东300米路北</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.23540709941254,31.020494554347753</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>亭林大居商业广场</name>
+	<description>上海市金山区亭耀路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.32420775637912,30.901040298942423</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>绿地乐和城</name>
+	<description>上海市金山区龙皓路与学府路交叉路口东北侧(绿地芳满庭)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.31177770443553,30.749432893994548</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>云间购物中心</name>
+	<description>上海市松江区中山路249号(松江二中对面)</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.23965302081633,31.008933586098653</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>飞航广场南区</name>
+	<description>上海市松江区玉树路2559号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.20411374748559,31.011351513015917</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>玩酷天地商场招商中心</name>
+	<description>上海市松江区环城路555号玩酷天地1楼</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.24968986774918,31.012492693276453</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>南蓝桥商业广场</name>
+	<description>上海市松江区江学路321-36号附近</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.20704731658608,31.030771075409547</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>三角地商业广场</name>
+	<description>上海市松江区叶榭镇大叶公路</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.31926583421495,30.950099773712534</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>新仓商业中心(建设中)</name>
+	<description>浙江省嘉兴市平湖市建新路与仓南路交汇处</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.17919076620963,30.725117089206762</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>彩虹广场(暂停营业)</name>
+	<description>浙江省嘉兴市平湖市城南东路343号</description>
+	<ExtendedData><SchemaData schemaUrl="#POI£¨购物£©">
+		<SimpleData name="Style"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.01283361167508,30.696233462611922</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
