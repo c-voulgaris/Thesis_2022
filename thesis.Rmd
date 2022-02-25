@@ -9,22 +9,1271 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r}
+options(java.parameters = "-Xmx4G")
 ```
 
-## Including Plots
+## Load libraries
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r setup, message=FALSE}
+library(r5r)
+library(tidyverse)
+library(sf)
+library(irr)
+library(ggthemes)
+library(jtools)
+library(gridExtra)
+library(units)
+library(ggspatial)
+library(tibble)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Load spatial datasets and add ID columns
+
+```{r dataset, message=FALSE, warning=FALSE, results='hide'}
+boundary <- st_read("Largefiles/ad_boundary/boundary.shp")
+centralarea <- st_read("Largefiles/centralarea/centralarea.shp")
+
+school <- st_read("Largefiles/school/school.shp") %>% 
+  st_transform("WGS84") 
+
+hospital <- st_read("Largefiles/hospitals/Jiaxing_hos.shp") %>% 
+  st_transform("WGS84")
+
+busstop <- st_read("Largefiles/busstop/Jiaxing_busstop.shp") %>% 
+  st_transform("WGS84")
+
+restaurant <- st_read("Largefiles/restaurants/Jiaxing_res.shp") %>% 
+  st_transform("WGS84")
+  
+greenspace <- st_read("Largefiles/greenspace/greenspace.shp") %>% 
+  st_transform("WGS84")
+
+leis <- st_read("Largefiles/leisure/yule.shp") %>% 
+  st_transform("WGS84")
+
+public <- st_read("Largefiles/public_service/shenghuo.shp") %>% 
+  st_transform("WGS84")
+  
+shopping <- st_read("Largefiles/shopping/shopping.shp")
+  
+weibo <- st_read("Largefiles/weibo_wea/added_weibo.shp")
+
+pl_restaurant <- st_read("planned/sample_pl_res.shp") %>% 
+  st_transform("WGS84")
+
+# existing zoning and planned zoning (bueiness, educational, greenspace, medical and residential)
+
+ex_business <- st_read("Largefiles/existingplanning/ex_business.shp") %>% 
+  st_transform("WGS84")
+
+ex_educational <- st_read("Largefiles/existingplanning/ex_educational.shp") %>% 
+  st_transform("WGS84")
+
+ex_greenspace <- st_read("Largefiles/existingplanning/ex_greenspace.shp") %>% 
+  st_transform("WGS84")
+
+ex_medical <- st_read("Largefiles/existingplanning/ex_medical.shp") %>% 
+  st_transform("WGS84")
+
+ex_residential <- st_read("Largefiles/existingplanning/ex_residential.shp") %>% 
+  st_transform("WGS84")
+
+pl_business <- st_read("Largefiles/futureplanning/pl_business.shp") %>% 
+  st_transform("WGS84")
+
+pl_educational <- st_read("Largefiles/futureplanning/pl_educational.shp") %>% 
+  st_transform("WGS84")
+
+pl_greenspace <- st_read("Largefiles/futureplanning/pl_greenspace.shp") %>% 
+  st_transform("WGS84")
+
+pl_medical <- st_read("Largefiles/futureplanning/pl_medical.shp") %>% 
+  st_transform("WGS84")
+
+pl_residential <- st_read("Largefiles/futureplanning/pl_residential.shp") %>% 
+  st_transform("WGS84")
+
+hospital$Id <- NULL
+restaurant$Id <- NULL
+  
+school <- school %>%
+    mutate(id = seq(1, length(school$Name)))
+restaurant <- restaurant %>%
+    mutate(id = seq(1, length(restaurant$geometry)))
+greenspace <- greenspace %>%
+    mutate(id = seq(1, length(greenspace$Name)))
+hospital <- hospital %>%
+    mutate(id = seq(1, length(hospital$geometry)))
+weibo <- weibo %>%
+    mutate(id = seq(1, length(weibo$geometry)))
+shopping <- shopping %>%
+    mutate(id = seq(1, length(shopping$geometry)))
+public <- public %>%
+    mutate(id = seq(1, length(public$geometry)))
+leis <- leis %>%
+    mutate(id = seq(1, length(leis$geometry)))
+pl_restaurant <- pl_restaurant %>%
+    mutate(id = seq(1, length(pl_restaurant$geometry)))
+ex_business <- ex_business %>%
+    mutate(id = seq(1, length(ex_business$geometry)))
+ex_educational <- ex_educational %>%
+    mutate(id = seq(1, length(ex_educational$geometry)))
+ex_greenspace <- ex_greenspace %>%
+    mutate(id = seq(1, length(ex_greenspace$geometry)))
+ex_medical <- ex_medical %>%
+    mutate(id = seq(1, length(ex_medical$geometry)))
+ex_residential <- ex_residential %>%
+    mutate(id = seq(1, length(ex_residential$geometry)))
+pl_business <- pl_business %>%
+    mutate(id = seq(1, length(pl_business$geometry)))
+pl_educational <- pl_educational %>%
+    mutate(id = seq(1, length(pl_educational$geometry)))
+pl_greenspace <- pl_greenspace %>%
+    mutate(id = seq(1, length(pl_greenspace$geometry)))
+pl_medical <- pl_medical %>%
+    mutate(id = seq(1, length(pl_medical$geometry)))
+pl_residential <- pl_residential %>%
+    mutate(id = seq(1, length(pl_residential$geometry)))
+```
+
+## Plot street network with hospital locations 
+
+```{r, message=FALSE, warning=FALSE, results='hide'}
+jiaxing_streets <- st_read("jiaxing/osmdata_network_01.pbf", layer = "lines", quiet=TRUE)
+greenspace_points <- st_centroid(greenspace)
+
+ggplot(jiaxing_streets) +
+  geom_sf() +
+  geom_sf(data = hospital, color = "red") +
+  theme_void()
+```
+
+## Clip street network and layer of Weibo posts to city boundary
+
+```{r CLIP, echo=FALSE}
+jiaxing_streets <- jiaxing_streets[boundary,]
+weibo_clip <- weibo[boundary,]
+```
+
+## Create grid
+
+```{r build grid, echo=FALSE}
+grid <- st_sf(st_make_grid(boundary, square = FALSE,
+                           n = c(100, 100),
+                           what = "polygons")) %>% 
+  st_filter(boundary)
+
+colnames(grid) <- "geometry"
+st_geometry(grid) <- "geometry"
+
+grid <- grid %>% 
+  mutate(id = seq(1, length(grid$geometry), by = 1))
+
+
+ggplot() +
+  geom_sf(data = grid)+
+  theme_map()
+
+grid_points <- st_centroid(grid)
+ggplot() +
+  geom_sf(data = grid_points, size = 0.75) +
+  geom_sf(data = weibo_clip, color = "red") +
+  theme_map()
+```
+
+## get number of each type of destination in each grid cell
+
+```{r}
+grid <- grid %>%
+  mutate(num_restaurant = lengths(st_covers(grid, restaurant))) %>%
+  mutate(num_school = lengths(st_covers(grid, school)))%>%
+  mutate(num_hospital = lengths(st_covers(grid, hospital)))%>%
+  mutate(num_busstop = lengths(st_covers(grid, busstop)))%>%
+  mutate(num_greenspace = lengths(st_covers(grid, greenspace_points)))%>%
+  mutate(num_leis = lengths(st_covers(grid, leis)))%>%
+  mutate(num_public = lengths(st_covers(grid, public)))%>%
+  mutate(num_shopping = lengths(st_covers(grid, shopping)))%>%
+  mutate(num_pl_restaurant = lengths(st_covers(grid,pl_restaurant)))
+
+grid_points <- st_centroid(grid)
+
+```
+
+
+## run r5r
+
+```{r, message=FALSE}
+r5r_core <- setup_r5("jiaxing", verbose = FALSE)
+
+```
+## Run accessibility for each amenities, then use the Loop model for each of the threshold values and see which threshold gives the best model fit.
+
+## Run this individually for each of the amenities, and then use the variable that gives the best fit for each to combine into a refined regression model.
+
+
+This will add five columns to weibo_clip:
+
+restaurant_access_5: The number of restaurants within a 5-minute walk.
+restaurant_access_10: The number of restaurants within a 10-minute walk.
+restaurant_access_15: The number of restaurants within a 15-minute walk.
+restaurant_access_20: The number of restaurants within a 15-minute walk.
+restaurant_access_25: The number of restaurants within a 15-minute walk.
+
+`for (i in seq(5, 25, by = 5))` means you want to generate values for cutoffs that range from 5 to 25 minutes, increasing in increments of 5 minutes. You can get more columns by editing that line to get a wider range and/or increase by smaller increments.
+
+
+# Accessibility from weibo posted to nearest restaurant
+
+```{r, message=FALSE, results='hide'}
+for (i in seq(5, 25, by=5)) {
+  restaurant_access <- accessibility(r5r_core,
+                                   origins = weibo_clip,
+                                   destinations = grid_points,
+                                   opportunities_colname = "num_restaurant",
+                                   mode = "WALK",
+                                   decay_function = "step",
+                                   cutoffs = i,
+                                   verbose = FALSE) %>%
+    mutate(id = as.numeric(from_id)) %>%
+    select("id", "accessibility")
+
+  colnames(restaurant_access) <- c("id",
+                                   paste("restaurant_access_", i, sep = ""))
+
+  weibo_clip <- weibo_clip %>%
+    left_join(restaurant_access)
+}
+  
+```
+# the Loop model
+```{r}
+formula <- as.formula(paste("positive_p ~ restaurant_access_", 5, sep=""))
+model <- lm(formula, data = weibo_clip)
+
+fit <- tibble(threshold = 5,
+              fit = summary(model)$r.squared)
+
+for (i in seq(10, 25, by=5)) {
+  formula <- as.formula(paste("positive_p ~ restaurant_access_", i, sep=""))
+  model <- lm(formula, data = weibo_clip)
+
+fit <- rbind(fit, c(i, summary(model)$r.squared))
+
+  
+}
+fit
+
+ggplot(fit, aes(x = threshold, y = fit)) +
+  geom_point() +
+  theme_bw()
+```
+
+# ```{r}
+# myplot <- ggplot(weibo_clip) +
+#   geom_sf(data = jiaxing_streets, alpha = 0.2) +
+#   geom_sf(aes(color = restaurant_access_15), size = 0.1) +
+#   scale_color_viridis_c() +
+#   theme_map()
+# 
+# pdf("ggplot.pdf")
+# print(myplot)
+# dev.off() 
+# ```
+
+# ```{r}
+# ggplot(weibo_clip) +
+#   geom_sf(aes(color = positive_p), size = 0.1) +
+#   scale_color_viridis_c() +
+#   theme_map()
+# ```
+
+# accessibility from weibo posted to greenspace
+
+```{r, message=FALSE, results='hide'}
+for (i in seq(5, 60, by=5)) {
+  greenspace_access <- accessibility(r5r_core,
+                                   origins = weibo_clip,
+                                   destinations = grid_points,
+                                   opportunities_colname = "num_greenspace",
+                                   mode = "WALK",
+                                   decay_function = "step",
+                                   cutoffs = i,
+                                   verbose = FALSE) %>%
+    mutate(id = as.numeric(from_id)) %>%
+    select("id", "accessibility")
+
+  colnames(greenspace_access) <- c("id",
+                                   paste("greenspace_access_", i, sep = ""))
+
+  weibo_clip <- weibo_clip %>%
+    left_join(greenspace_access)
+}
+
+```
+
+```{r}
+formula <- as.formula(paste("positive_p ~ greenspace_access_", 5, sep=""))
+model <- lm(formula, data = weibo_clip)
+
+fit <- tibble(threshold = 5,
+              fit = summary(model)$r.squared)
+
+for (i in seq(10, 60, by=5)) {
+  formula <- as.formula(paste("positive_p ~ greenspace_access_", i, sep=""))
+  model <- lm(formula, data = weibo_clip)
+
+fit <- rbind(fit, c(i, summary(model)$r.squared))
+
+  
+}
+fit
+
+ggplot(fit, aes(x = threshold, y = fit)) +
+  geom_point() +
+  theme_bw()
+```
+# accessibility from weibo posted to school
+
+```{r, message=FALSE, results='hide'}
+for (i in seq(5, 30, by=5)) {
+  school_access <- accessibility(r5r_core,
+                                   origins = weibo_clip,
+                                   destinations = grid_points,
+                                   opportunities_colname = "num_school",
+                                   mode = "WALK",
+                                   decay_function = "step",
+                                   cutoffs = i,
+                                   verbose = FALSE) %>%
+    mutate(id = as.numeric(from_id)) %>%
+    select("id", "accessibility")
+
+  colnames(school_access) <- c("id",
+                                   paste("school_access_", i, sep = ""))
+
+  weibo_clip <- weibo_clip %>%
+    left_join(school_access)
+}
+
+  
+formula <- as.formula(paste("positive_p ~ school_access_", 5, sep=""))
+model <- lm(formula, data = weibo_clip)
+
+fit <- tibble(threshold = 5,
+              fit = summary(model)$r.squared)
+
+for (i in seq(10, 30, by=5)) {
+  formula <- as.formula(paste("positive_p ~ school_access_", i, sep=""))
+  model <- lm(formula, data = weibo_clip)
+
+fit <- rbind(fit, c(i, summary(model)$r.squared))
+
+  
+}
+fit
+
+ggplot(fit, aes(x = threshold, y = fit)) +
+  geom_point() +
+  theme_bw()
+
+```
+
+# accessibility from weibo posted to hospital
+
+```{r, message=FALSE, results='hide'}
+for (i in seq(5, 30, by=5)) {
+  hospital_access <- accessibility(r5r_core,
+                                   origins = weibo_clip,
+                                   destinations = grid_points,
+                                   opportunities_colname = "num_hospital",
+                                   mode = "WALK",
+                                   decay_function = "step",
+                                   cutoffs = i,
+                                   verbose = FALSE) %>%
+    mutate(id = as.numeric(from_id)) %>%
+    select("id", "accessibility")
+
+  colnames(hospital_access) <- c("id",
+                                   paste("hospital_access_", i, sep = ""))
+
+  weibo_clip <- weibo_clip %>%
+    left_join(hospital_access)
+}
+  
+formula <- as.formula(paste("positive_p ~ hospital_access_", 5, sep=""))
+model <- lm(formula, data = weibo_clip)
+
+fit <- tibble(threshold = 5,
+              fit = summary(model)$r.squared)
+
+for (i in seq(10, 30, by=5)) {
+  formula <- as.formula(paste("positive_p ~ hospital_access_", i, sep=""))
+  model <- lm(formula, data = weibo_clip)
+
+fit <- rbind(fit, c(i, summary(model)$r.squared))
+
+  
+}
+fit
+
+ggplot(fit, aes(x = threshold, y = fit)) +
+  geom_point() +
+  theme_bw()
+
+```
+# accessibility from weibo posted to busstop
+
+```{r, message=FALSE, results='hide'}
+for (i in seq(5, 90, by=5)) {
+  busstop_access <- accessibility(r5r_core,
+                                   origins = weibo_clip,
+                                   destinations = grid_points,
+                                   opportunities_colname = "num_busstop",
+                                   mode = "WALK",
+                                   decay_function = "step",
+                                   cutoffs = i,
+                                   verbose = FALSE) %>%
+    mutate(id = as.numeric(from_id)) %>%
+    select("id", "accessibility")
+
+  colnames(busstop_access) <- c("id",
+                                   paste("busstop_access_", i, sep = ""))
+
+  weibo_clip <- weibo_clip %>%
+    left_join(busstop_access)
+}
+  
+formula <- as.formula(paste("positive_p ~ busstop_access_", 5, sep=""))
+model <- lm(formula, data = weibo_clip)
+
+fit <- tibble(threshold = 5,
+              fit = summary(model)$r.squared)
+
+for (i in seq(10, 90, by=5)) {
+  formula <- as.formula(paste("positive_p ~ busstop_access_", i, sep=""))
+  model <- lm(formula, data = weibo_clip)
+
+fit <- rbind(fit, c(i, summary(model)$r.squared))
+
+  
+}
+fit
+
+ggplot(fit, aes(x = threshold, y = fit)) +
+  geom_point() +
+  theme_bw()
+
+```
+# accessibility from weibo posted to leis
+
+```{r, message=FALSE, results='hide'}
+for (i in seq(5, 30, by=5)) {
+  leis_access <- accessibility(r5r_core,
+                                   origins = weibo_clip,
+                                   destinations = grid_points,
+                                   opportunities_colname = "num_leis",
+                                   mode = "WALK",
+                                   decay_function = "step",
+                                   cutoffs = i,
+                                   verbose = FALSE) %>%
+    mutate(id = as.numeric(from_id)) %>%
+    select("id", "accessibility")
+
+  colnames(leis_access) <- c("id",
+                                   paste("leis_access_", i, sep = ""))
+
+  weibo_clip <- weibo_clip %>%
+    left_join(leis_access)
+}
+  
+formula <- as.formula(paste("positive_p ~ leis_access_", 5, sep=""))
+model <- lm(formula, data = weibo_clip)
+
+fit <- tibble(threshold = 5,
+              fit = summary(model)$r.squared)
+
+for (i in seq(10, 30, by=5)) {
+  formula <- as.formula(paste("positive_p ~ leis_access_", i, sep=""))
+  model <- lm(formula, data = weibo_clip)
+
+fit <- rbind(fit, c(i, summary(model)$r.squared))
+
+  
+}
+fit
+
+ggplot(fit, aes(x = threshold, y = fit)) +
+  geom_point() +
+  theme_bw()
+
+```
+# accessibility from weibo posted to public
+
+```{r, message=FALSE, results='hide'}
+for (i in seq(5, 30, by=5)) {
+  public_access <- accessibility(r5r_core,
+                                   origins = weibo_clip,
+                                   destinations = grid_points,
+                                   opportunities_colname = "num_public",
+                                   mode = "WALK",
+                                   decay_function = "step",
+                                   cutoffs = i,
+                                   verbose = FALSE) %>%
+    mutate(id = as.numeric(from_id)) %>%
+    select("id", "accessibility")
+
+  colnames(public_access) <- c("id",
+                                   paste("public_access_", i, sep = ""))
+
+  weibo_clip <- weibo_clip %>%
+    left_join(public_access)
+}
+  
+formula <- as.formula(paste("positive_p ~ public_access_", 5, sep=""))
+model <- lm(formula, data = weibo_clip)
+
+fit <- tibble(threshold = 5,
+              fit = summary(model)$r.squared)
+
+for (i in seq(10, 30, by=5)) {
+  formula <- as.formula(paste("positive_p ~ public_access_", i, sep=""))
+  model <- lm(formula, data = weibo_clip)
+
+fit <- rbind(fit, c(i, summary(model)$r.squared))
+
+  
+}
+fit
+
+ggplot(fit, aes(x = threshold, y = fit)) +
+  geom_point() +
+  theme_bw()
+
+```
+# accessibility from weibo posted to shopping
+
+```{r, message=FALSE, results='hide'}
+for (i in seq(5, 30, by=5)) {
+  shopping_access <- accessibility(r5r_core,
+                                   origins = weibo_clip,
+                                   destinations = grid_points,
+                                   opportunities_colname = "num_shopping",
+                                   mode = "WALK",
+                                   decay_function = "step",
+                                   cutoffs = i,
+                                   verbose = FALSE) %>%
+    mutate(id = as.numeric(from_id)) %>%
+    select("id", "accessibility")
+
+  colnames(shopping_access) <- c("id",
+                                   paste("shopping_access_", i, sep = ""))
+
+  weibo_clip <- weibo_clip %>%
+    left_join(shopping_access)
+}
+  
+formula <- as.formula(paste("positive_p ~ shopping_access_", 5, sep=""))
+model <- lm(formula, data = weibo_clip)
+
+fit <- tibble(threshold = 5,
+              fit = summary(model)$r.squared)
+
+for (i in seq(10, 30, by=5)) {
+  formula <- as.formula(paste("positive_p ~ shopping_access_", i, sep=""))
+  model <- lm(formula, data = weibo_clip)
+
+fit <- rbind(fit, c(i, summary(model)$r.squared))
+
+  
+}
+fit
+
+ggplot(fit, aes(x = threshold, y = fit)) +
+  geom_point() +
+  theme_bw()
+
+```
+## Comparison between the 15-min accessibility regression model and refined regression model with best threshold
+```{r}
+
+full1_model <- lm(positive_p ~ restaurant_access_15 + school_access_15 + hospital_access_15 + busstop_access_15 + greenspace_access_15 + leis_access_15 + public_access_15 + shopping_access_15, data = weibo_clip)
+
+summary(full1_model)
+
+
+full2_model <- lm(positive_p ~ restaurant_access_15 + school_access_25 + hospital_access_25 + busstop_access_70 + greenspace_access_25 + leis_access_20 + public_access_15 + shopping_access_25, data = weibo_clip)
+
+summary(full2_model)
+
+coeff_names <- c("Costant" = "(Intercept)")
+
+export_summs(full1_model, full2_model,
+             error_format = "(p = {p.value})",
+             error_pos = "same",
+             model.name = c ("Initial",
+                             "Refined"),
+             coef=coeff_names)
+```
+# ```{r}
+# weibo_clip <- weibo_clip %>%
+#  mutate(log_greenspace = log(greenspace_access), base = 2)
+# 
+# full_model2 <- lm(positive_p ~ restaurant_access + school_access + hospital_access + busstop_access + log_greenspace + leis_access + public_access + shopping_access, data = weibo_clip)
+# 
+# summary(full_model2)
+# ```
+
+## Inter-rater reliability
+```{r read csv, message=FALSE, warning=FALSE, results='hide'}
+reliability <- read_csv("reliability_test.csv")
+```
+
+## IPercentage agreement
+```{r, message=FALSE, warning=FALSE, results='hide'}
+ratings <- reliability %>% select(lei, YZ, TW)
+agree(ratings)
+```
+```{r, message=FALSE, warning=FALSE, results='hide'}
+ratings_ai <- reliability %>% select(AI, lei)
+kappa2(ratings_ai)
+```
+# Test the prediction function and see whether the prediction based on same data could produce similar sentiment result.
+However, the predicted result lack of data below 0.7.
+
+```{r, message=FALSE, warning=FALSE, results='hide'}
+weibo_predict <- weibo_clip
+
+weibo_predict$positive_p <- predict(full2_model, weibo_clip)
+
+ggplot(weibo_predict) +
+  geom_sf(aes(color = weibo_predict$positive_p), size = 0.1) +
+  scale_color_viridis_c() +
+  theme_map()
+
+ggplot(weibo_clip) +
+  geom_sf(aes(color = weibo_clip$positive_p), size = 0.1) +
+  scale_color_viridis_c() +
+  theme_map()
+
+# predict
+# weibo_predict$positive_p
+# weibo_clip$positive_p
+# write.csv(weibo_predict,"D:\\R sets\\independent-study\\predict.csv")
+# write.csv(weibo_clip,"D:\\R sets\\independent-study\\exist.csv")
+```
+
+# ```{r, message=FALSE, warning=FALSE, results='hide'}
+# test = data.frame(restaurant_access_15, school_access_25, hospital_access_25, busstop_access_70, greenspace_access_25, leis_access_20, public_access_15, shopping_access_25)
+# 
+# restaurant_access_15 <- weibo_clip$restaurant_access_15
+# school_access_25 <- weibo_clip$school_access_25
+# hospital_access_25 <- weibo_clip$hospital_access_25
+# busstop_access_70 <- weibo_clip$busstop_access_70
+# greenspace_access_25 <- weibo_clip$greenspace_access_25
+# leis_access_20 <- weibo_clip$leis_access_20
+# public_access_15 <- weibo_clip$public_access_15
+# shopping_access_25<- weibo_clip$shopping_access_25
+# 
+# weibo_predict2 <- weibo_clip
+# 
+# weibo_predict2$positive_p <- predict(full2_model, newdata = test)
+# # write.csv(test,"D:\\R sets\\independent-study\\test.csv")
+# ```
+
+
+# Predict based on RANDOM restaurant generated in Arcgis
+# Display different sentiment map of resturants based on change of residential and business zoning
+```{r, message=FALSE, results='hide'}
+
+for (i in seq(5, 25, by=5)) {
+  pl_restaurant_access <- accessibility(r5r_core,
+                                   origins = weibo_clip,
+                                   destinations = grid_points,
+                                   opportunities_colname = "num_pl_restaurant",
+                                   mode = "WALK",
+                                   decay_function = "step",
+                                   cutoffs = i,
+                                   verbose = FALSE) %>%
+    mutate(id = as.numeric(from_id)) %>%
+    select("id", "accessibility")
+
+  colnames(pl_restaurant_access) <- c("id",
+                                   paste("pl_restaurant_access_", i, sep = ""))
+
+  weibo_clip <- weibo_clip %>%
+    left_join(pl_restaurant_access)
+}
+```
+
+```{r, message=FALSE, warning=FALSE, results='hide'}
+weibo_predict <- weibo_clip
+
+weibo_predict$restaurant_access_15 <- weibo_clip$pl_restaurant_access_15
+
+weibo_predict$positive_p <- predict(full2_model, weibo_predict)
+
+ggplot(weibo_predict) +
+  geom_sf(aes(color = weibo_predict$positive_p), size = 0.1) +
+  scale_color_viridis_c() +
+  theme_map()
+
+write.csv(weibo_predict,"D:\\R sets\\independent-study\\predict_pl.csv")
+
+weibo_existing_hist <- ggplot(weibo_clip) +
+  geom_histogram(aes(x = positive_p),
+                 bins = 30)
+
+weibo_predict_hist <- ggplot(weibo_predict) +
+  geom_histogram(aes(x = positive_p),
+                 bins = 30)
+
+weibo_existing_hist
+
+weibo_predict_hist
+
+grid.arrange(weibo_existing_hist, weibo_predict_hist,
+             ncol = 2)
+
+ggplot(weibo_clip) +
+     geom_point(aes(x = restaurant_access_15, y= positive_p))
+ggplot(weibo_predict) +
+     geom_point(aes(x = restaurant_access_15, y= positive_p))
+```
+## Regression models adding Types of day(Weekday, Weekend and holiday), 
+## weather (Rainy, Cloudy, snow, smog and sunny), 
+## and timeslots (early morning, morning, afternoon, sunset, everning and midnight)
+
+```{r Regression analysis}
+
+weibo_clip <- weibo_clip %>%
+  filter(Timeslot != "?") %>%
+  mutate(Timeslot = as.factor(Timeslot)) %>%
+  mutate(Timeslot = relevel(Timeslot, ref = "Evening" ))%>%
+  mutate(Type = as.factor(Type)) %>%
+  mutate(Type = relevel(Type, ref = "Weekday" ))
+
+
+full1_model <- lm(positive_p ~ restaurant_access_15 +
+                    school_access_15 + hospital_access_15 +
+                    busstop_access_15 + greenspace_access_15 +
+                    leis_access_15 +
+                    public_access_15 +
+                    shopping_access_15,
+                    data = weibo_clip)
+
+summary(full1_model)
+
+
+full2_model <- lm(positive_p ~ restaurant_access_15 +
+                    school_access_25 +
+                    hospital_access_25 +
+                    busstop_access_70 +
+                    greenspace_access_25 +
+                    leis_access_20 +
+                    public_access_15 +
+                    shopping_access_25,
+                    data = weibo_clip)
+
+full3_model <- lm(positive_p ~ restaurant_access_15 +
+                    school_access_25 +
+                    hospital_access_25 +
+                    busstop_access_70 +
+                    greenspace_access_25 +
+                    leis_access_20 +
+                    public_access_15 +
+                    shopping_access_25 +
+                    Type +
+                    Timeslot +
+                    Weather,
+                    data = weibo_clip)
+coeff_names <- c("Costant" = "(Intercept)")
+
+export_summs(full1_model, full2_model, full3_model,
+             error_format = "(p = {p.value})",
+             error_pos = "same",
+             model.name = c ("Initial",
+                             "Refined2",
+                             "Refined3"),
+             coef=coeff_names)
+```
+## Interaction analysis with specific Types, Timeslots and Weather
+#Find out Types and Weather did not affect the results, but Timeslots mattered.
+
+```{r Interaction analysis}
+
+# Type1_model <- lm(positive_p ~ restaurant_access_15 +
+#                     school_access_25 +
+#                     hospital_access_25 +
+#                     busstop_access_70 +
+#                     greenspace_access_25 +
+#                     leis_access_20 +
+#                     public_access_15 +
+#                     shopping_access_25 +
+#                     Type +
+#                     Timeslot +
+#                     Weather +
+#                     Type:restaurant_access_15,
+#                     data = weibo_clip)
+#                   
+# summary(Type1_model)
+
+Timeslot1_model <- lm(positive_p ~ restaurant_access_15 +
+                    school_access_25 +
+                    hospital_access_25 +
+                    busstop_access_70 +
+                    greenspace_access_25 +
+                    leis_access_20 +
+                    public_access_15 +
+                    shopping_access_25 +
+                    Type +
+                    Timeslot +
+                    Weather +
+                    Timeslot:restaurant_access_15,
+                    data = weibo_clip)
+                  
+summary(Timeslot1_model)
+
+Timeslot2_model <- lm(positive_p ~ restaurant_access_15 +
+                    school_access_25 +
+                    hospital_access_25 +
+                    busstop_access_70 +
+                    greenspace_access_25 +
+                    leis_access_20 +
+                    public_access_15 +
+                    shopping_access_25 +
+                    Type +
+                    Timeslot +
+                    Weather +
+                    Timeslot:school_access_25,
+                    data = weibo_clip)
+                  
+summary(Timeslot2_model)
+
+Timeslot3_model <- lm(positive_p ~ restaurant_access_15 +
+                    school_access_25 +
+                    hospital_access_25 +
+                    busstop_access_70 +
+                    greenspace_access_25 +
+                    leis_access_20 +
+                    public_access_15 +
+                    shopping_access_25 +
+                    Type +
+                    Timeslot +
+                    Weather +
+                    Timeslot:hospital_access_25,
+                    data = weibo_clip)
+                  
+summary(Timeslot3_model)
+
+# Timeslot4_model <- lm(positive_p ~ restaurant_access_15 +
+#                     school_access_25 +
+#                     hospital_access_25 +
+#                     busstop_access_70 +
+#                     greenspace_access_25 +
+#                     leis_access_20 +
+#                     public_access_15 +
+#                     shopping_access_25 +
+#                     Type +
+#                     Timeslot +
+#                     Weather +
+#                     Timeslot:busstop_access_70,
+#                     data = weibo_clip)
+#                   
+# summary(Timeslot4_model)
+# 
+# Timeslot5_model <- lm(positive_p ~ restaurant_access_15 +
+#                     school_access_25 +
+#                     hospital_access_25 +
+#                     busstop_access_70 +
+#                     greenspace_access_25 +
+#                     leis_access_20 +
+#                     public_access_15 +
+#                     shopping_access_25 +
+#                     Type +
+#                     Timeslot +
+#                     Weather +
+#                     Timeslot:greenspace_access_25,
+#                     data = weibo_clip)
+#                   
+# summary(Timeslot5_model)
+
+Timeslot6_model <- lm(positive_p ~ restaurant_access_15 +
+                    school_access_25 +
+                    hospital_access_25 +
+                    busstop_access_70 +
+                    greenspace_access_25 +
+                    leis_access_20 +
+                    public_access_15 +
+                    shopping_access_25 +
+                    Type +
+                    Timeslot +
+                    Weather +
+                    Timeslot:leis_access_20,
+                    data = weibo_clip)
+                  
+summary(Timeslot6_model)
+
+# Timeslot7_model <- lm(positive_p ~ restaurant_access_15 +
+#                     school_access_25 +
+#                     hospital_access_25 +
+#                     busstop_access_70 +
+#                     greenspace_access_25 +
+#                     leis_access_20 +
+#                     public_access_15 +
+#                     shopping_access_25 +
+#                     Type +
+#                     Timeslot +
+#                     Weather +
+#                     Timeslot:public_access_15,
+#                     data = weibo_clip)
+#                   
+# summary(Timeslot7_model)
+
+Timeslot8_model <- lm(positive_p ~ restaurant_access_15 +
+                    school_access_25 +
+                    hospital_access_25 +
+                    busstop_access_70 +
+                    greenspace_access_25 +
+                    leis_access_20 +
+                    public_access_15 +
+                    shopping_access_25 +
+                    Type +
+                    Timeslot +
+                    Weather +
+                    Timeslot:shopping_access_25,
+                    data = weibo_clip)
+                  
+summary(Timeslot8_model)
+
+# Weather1_model <- lm(positive_p ~ restaurant_access_15 +
+#                     school_access_25 +
+#                     hospital_access_25 +
+#                     busstop_access_70 +
+#                     greenspace_access_25 +
+#                     leis_access_20 +
+#                     public_access_15 +
+#                     shopping_access_25 +
+#                     Type +
+#                     Timeslot +
+#                     Weather +
+#                     Type:restaurant_access_15,
+#                     data = weibo_clip)
+#                   
+# summary(Weather1_model)
+
+```
+## Prediction of restaurants location based on change of residential and business zones, noticed the planning documents only reflect the conditions of central area of Jiaxing, I intended to replace the restaurants locations within central area, keeping other locations unchanged.
+
+
+# count restaurant and calculate densities
+```{r, message=FALSE, results='hide'}
+
+restaurant_central <- restaurant[centralarea,]
+
+ggplot() +
+  geom_sf(data = centralarea, color = "black") +
+  geom_sf(data = restaurant_central, color = "red") +
+  theme_map()
+
+res_ex_business <- restaurant_central[ex_business,] #create a dataframe that only includes the restaurants that are located within                                               the existing residential and business zones
+res_ex_residential <- restaurant_central[ex_residential,]
+
+merge_br <- st_union(ex_business, ex_residential) #create a dataframe that only includes the restaurants that are outside the                                                  existing residential and business zones
+ex_other <- st_difference (centralarea, merge_br) 
+
+res_ex_other <- restaurant_central[ex_other,]
+
+# ggplot (ex_other) +
+#   geom_sf(data = ex_other, color = "red") +
+#   theme_void()
+
+nres_business <- length(res_ex_business$id)
+nres_residential <- length(res_ex_residential$id)
+nres_other <- length(res_ex_other$id)
+
+area_bus <- set_units(st_area(ex_business), km^2)
+den_bus <- as.numeric(nres_business / area_bus)
+
+area_res <- set_units(st_area(ex_residential), km^2)
+den_res <- as.numeric(nres_residential / area_res)
+
+area_other <- set_units(st_area(ex_other), km^2)
+den_other <- as.numeric(nres_other / area_other)
+
+# area_merge2<- set_units(st_area(merge_br), km^2)
+# area_merge2 <- as.numeric(area_merge2)
+# area_other2<- set_units(st_area(ex_other), km^2)
+# area_other2 <- as.numeric(area_other2)
+# area_bus
+# area_res
+# area_merge2
+# area_other2
+```
+# create random restaurants in planed zoning
+
+```{r, message=FALSE, results='hide'}
+sf::sf_use_s2(FALSE)
+merge_plbr <- st_union(pl_business, pl_residential) 
+ex_plother <- st_difference (centralarea, merge_plbr) 
+
+area_plbus <- set_units(st_area(pl_business), km^2) #calculate areas of planned zonings
+area_plres <- set_units(st_area(pl_residential), km^2)
+area_plother <- set_units(st_area(ex_plother), km^2)
+  
+area_plbus <- as.numeric(area_plbus)
+area_plres <- as.numeric(area_plres)
+area_plother <- as.numeric(area_plother)
+
+area_central<- set_units(st_area(centralarea), km^2)
+area_central <- as.numeric(area_central)
+area_merge<- set_units(st_area(merge_plbr), km^2)
+area_merge <- as.numeric(area_merge)
+areasum = area_plbus + area_plres
+
+predict_res_bus <- st_sample(pl_business, 
+                             size = area_plbus*den_bus)
+predict_res_res <- st_sample(pl_residential, 
+                             size = area_plres*den_res)
+predict_res_other <- st_sample(ex_plother, 
+                             size = area_plother*den_other)
+ggplot (pl_business) +
+   geom_sf(color = "black") +
+   geom_sf(data = predict_res_bus, 
+           color = "red",
+           size = 0.1) +
+   geom_sf(data = predict_res_res,
+           color = "blue",
+           size = 0.1) +
+   geom_sf(data = predict_res_other,
+           color = "green",
+           size = 0.1) +
+   theme_void()
+
+## replace the predicted restaurant with existed ones within central area
+outsidecentral <- st_difference (boundary, centralarea)
+restaurant_outcentral <- restaurant[outsidecentral,]
+
+ggplot() +
+  geom_sf(data = centralarea, color = "black") +
+  geom_sf(data = restaurant_outcentral, color = "red") +
+  theme_map()
+
+predict_res_bus_df <- tibble(zone = rep("business", 
+                                      length(predict_res_bus))) %>%
+  st_sf(geometry = predict_res_bus)
+
+predict_res_res_df <- tibble(zone = rep("residential", 
+                                      length(predict_res_res))) %>%
+  st_sf(geometry = predict_res_res)
+
+predict_res_other_df <- tibble(zone = rep("other", 
+                                      length(predict_res_other))) %>%
+  st_sf(geometry = predict_res_other)
+
+predict_res_in <- rbind(predict_res_bus_df, predict_res_res_df, predict_res_other_df)
+
+predict_res_in <- predict_res_in %>% 
+  st_transform("WGS84")
+restaurant_outcentral <- restaurant_outcentral %>% 
+  st_transform("WGS84")
+
+restaurant_outcentral <- restaurant_outcentral %>%
+  mutate(zone = "outside")
+
+restaurant_outcentral <- restaurant_outcentral %>%
+  st_zm()
+
+# the following chuck is for achieve rbind.fill function without loading the plyr package, the reason why not loading this package because if I loaded this, the accessibility function can not be runned due to the overlap function of two loaded package
+
+rbindx <- function(..., dfs=list(...)) {   
+  ns <- unique(unlist(sapply(dfs, names)))
+  do.call(rbind, lapply(dfs, function(x) {
+    for(n in ns[! ns %in% names(x)]) {x[[n]] <- NA}; x }))
+}
+
+predict_res <- rbindx(predict_res_in, restaurant_outcentral)
+
+predict_res_point <- st_as_sf(x = predict_res, 
+                        crs = "WGS84")
+
+ggplot (restaurant) +
+   geom_sf(color = "black") +
+   theme_void()
+
+ggplot (predict_res_point) +
+   geom_sf(color = "red") +
+   theme_void()
+```
+
+## get number of predicted restaurants in each grid cell
+
+```{r}
+grid <- grid %>%
+  mutate(num_predict_res = lengths(st_covers(grid,predict_res_point)))
+
+grid_points <- st_centroid(grid)
+
+```
+# estimate sentiment map based on predicted restaurant
+# Display different sentiment map of resturants based on change of residential and business zoning
+```{r, message=FALSE, results='hide'}
+
+for (i in seq(5, 25, by=5)) {
+  pr_restaurant_access <- accessibility(r5r_core,
+                                   origins = weibo_clip,
+                                   destinations = grid_points,
+                                   opportunities_colname = "num_predict_res",
+                                   mode = "WALK",
+                                   decay_function = "step",
+                                   cutoffs = i,
+                                   verbose = FALSE) %>%
+    mutate(id = as.numeric(from_id)) %>%
+    select("id", "accessibility")
+
+  colnames(pr_restaurant_access) <- c("id",
+                                   paste("pr_restaurant_access_", i, sep = ""))
+
+  weibo_clip <- weibo_clip %>%
+    left_join(pr_restaurant_access)
+}
+```
+```{r, message=FALSE, warning=FALSE, results='hide'}
+weibo_predict2 <- weibo_clip
+
+weibo_predict2$restaurant_access_15 <- weibo_clip$pr_restaurant_access_15
+
+weibo_predict2$positive_p <- predict(full2_model, weibo_predict2)
+
+ggplot(weibo_predict2) +
+  geom_sf(aes(color = weibo_predict2$positive_p), size = 0.1) +
+  scale_color_viridis_c() +
+  theme_map()
+
+# write.csv(weibo_predict,"D:\\R sets\\independent-study\\predict_pl.csv")
+
+weibo_existing_hist <- ggplot(weibo_clip) +
+  geom_histogram(aes(x = positive_p),
+                 bins = 30)
+
+weibo_predict2_hist <- ggplot(weibo_predict2) +
+  geom_histogram(aes(x = positive_p),
+                 bins = 30)
+
+weibo_existing_hist
+
+weibo_predict2_hist
+
+grid.arrange(weibo_existing_hist, weibo_predict_hist,
+             ncol = 2)
+
+ggplot(weibo_clip) +
+     geom_point(aes(x = restaurant_access_15, y= positive_p))
+ggplot(weibo_predict2) +
+     geom_point(aes(x = restaurant_access_15, y= positive_p))
+```
+
+## scenario 2: double the number of school spreading out the city
+```{r, message=FALSE, warning=FALSE, results='hide'}
+nschool <- length(school$id)
+newschool <- st_sample(boundary, 
+                             size = nschool)
+
+newschool_df <- tibble(type = rep("new", 
+                                      length(newschool))) %>%
+  st_sf(geometry = newschool)
+
+doubleschool <- rbindx(newschool_df, school)
+
+doubleschool_point <- st_as_sf(x = doubleschool, 
+                        crs = "WGS84")
+```
+## get number of doublesschool in each grid cell and calculate accessibility with best fit
+
+```{r}
+grid <- grid %>%
+  mutate(num_doubleschool = lengths(st_covers(grid,doubleschool_point)))
+
+grid_points <- st_centroid(grid)
+
+for (i in seq(20, 30, by=5)) {
+  doubleschool_access <- accessibility(r5r_core,
+                                   origins = weibo_clip,
+                                   destinations = grid_points,
+                                   opportunities_colname = "num_doubleschool",
+                                   mode = "WALK",
+                                   decay_function = "step",
+                                   cutoffs = i,
+                                   verbose = FALSE) %>%
+    mutate(id = as.numeric(from_id)) %>%
+    select("id", "accessibility")
+
+  colnames(doubleschool_access) <- c("id",
+                                   paste("doubleschool_access_", i, sep = ""))
+
+  weibo_clip <- weibo_clip %>%
+    left_join(doubleschool_access)
+}
+
+weibo_predict_scenario2 <- weibo_clip
+
+weibo_predict_scenario2$doubleschool_access_25 <- weibo_clip$doubleschool_access_25
+
+weibo_predict_scenario2$positive_p <- predict(full2_model, weibo_predict_scenario2)
+
+ggplot(weibo_predict_scenario2) +
+  geom_sf(aes(color = weibo_predict_scenario2$positive_p), size = 0.1) +
+  scale_color_viridis_c() +
+  theme_map()
+```
+## scenario 3: turn school into greenspace
+```{r, message=FALSE, warning=FALSE, results='hide'}
+
+transgreen <- school
+
+newgreen <- rbindx(transgreen, greenspace)
+
+newgreen_point <- st_as_sf(x = newgreen, 
+                        crs = "WGS84")
+```
+## get number of newgreenspace in each grid cell and calculate accessibility of greenspace with best fit and make the accessibility of school as 0 due to removal of school in Jiaxing
+
+```{r}
+grid <- grid %>%
+  mutate(num_newgreen = lengths(st_covers(grid,newgreen_point)))
+
+grid_points <- st_centroid(grid)
+
+for (i in seq(20, 30, by=5)) {
+  newgreen_access <- accessibility(r5r_core,
+                                   origins = weibo_clip,
+                                   destinations = grid_points,
+                                   opportunities_colname = "num_newgreen",
+                                   mode = "WALK",
+                                   decay_function = "step",
+                                   cutoffs = i,
+                                   verbose = FALSE) %>%
+    mutate(id = as.numeric(from_id)) %>%
+    select("id", "accessibility")
+
+  colnames(newgreen_access) <- c("id",
+                                   paste("newgreen_access_", i, sep = ""))
+
+  weibo_clip <- weibo_clip %>%
+    left_join(newgreen_access)
+}
+
+weibo_predict_scenario3 <- weibo_clip
+
+weibo_predict_scenario3$newgreen_access_25 <- weibo_clip$newgreen_access_25
+weibo_predict_scenario3$school_access_25 <- 0
+
+weibo_predict_scenario3$positive_p <- predict(full2_model, weibo_predict_scenario3)
+
+ggplot(weibo_predict_scenario3) +
+  geom_sf(aes(color = weibo_predict_scenario3$positive_p), size = 0.1) +
+  scale_color_viridis_c() +
+  theme_map()
+```
+  
