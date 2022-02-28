@@ -27,8 +27,26 @@ library(gridExtra)
 library(units)
 library(ggspatial)
 library(tibble)
+library(modelr)
 ```
 
+
+
+## Inter-rater reliability
+```{r read csv, message=FALSE, warning=FALSE, results='hide'}
+reliability <- read_csv("reliability_test.csv")
+```
+
+## IPercentage agreement
+```{r, message=FALSE, warning=FALSE, results='hide'}
+ratings <- reliability %>% select(lei, YZ, TW)
+agree(ratings)
+```
+
+```{r, message=FALSE, warning=FALSE, results='hide'}
+ratings_ai <- reliability %>% select(AI, lei)
+kappa2(ratings_ai)
+```
 
 ## Load spatial datasets and add ID columns
 
@@ -595,6 +613,21 @@ ggplot(fit, aes(x = threshold, y = fit)) +
   theme_bw()
 
 ```
+
+```{r}
+write_csv(weibo_clip, file = "weibo_clip.csv")
+```
+
+
+# Start here!
+
+
+
+```{r}
+weibo_clip <- read_csv("weibo_clip.csv")
+```
+
+
 ## Comparison between the 15-min accessibility regression model and refined regression model with best threshold
 ```{r}
 
@@ -625,122 +658,6 @@ export_summs(full1_model, full2_model,
 # summary(full_model2)
 # ```
 
-## Inter-rater reliability
-```{r read csv, message=FALSE, warning=FALSE, results='hide'}
-reliability <- read_csv("reliability_test.csv")
-```
-
-## IPercentage agreement
-```{r, message=FALSE, warning=FALSE, results='hide'}
-ratings <- reliability %>% select(lei, YZ, TW)
-agree(ratings)
-```
-```{r, message=FALSE, warning=FALSE, results='hide'}
-ratings_ai <- reliability %>% select(AI, lei)
-kappa2(ratings_ai)
-```
-# Test the prediction function and see whether the prediction based on same data could produce similar sentiment result.
-However, the predicted result lack of data below 0.7.
-
-```{r, message=FALSE, warning=FALSE, results='hide'}
-weibo_predict <- weibo_clip
-
-weibo_predict$positive_p <- predict(full2_model, weibo_clip)
-
-ggplot(weibo_predict) +
-  geom_sf(aes(color = weibo_predict$positive_p), size = 0.1) +
-  scale_color_viridis_c() +
-  theme_map()
-
-ggplot(weibo_clip) +
-  geom_sf(aes(color = weibo_clip$positive_p), size = 0.1) +
-  scale_color_viridis_c() +
-  theme_map()
-
-# predict
-# weibo_predict$positive_p
-# weibo_clip$positive_p
-# write.csv(weibo_predict,"D:\\R sets\\independent-study\\predict.csv")
-# write.csv(weibo_clip,"D:\\R sets\\independent-study\\exist.csv")
-```
-
-# ```{r, message=FALSE, warning=FALSE, results='hide'}
-# test = data.frame(restaurant_access_15, school_access_25, hospital_access_25, busstop_access_70, greenspace_access_25, leis_access_20, public_access_15, shopping_access_25)
-# 
-# restaurant_access_15 <- weibo_clip$restaurant_access_15
-# school_access_25 <- weibo_clip$school_access_25
-# hospital_access_25 <- weibo_clip$hospital_access_25
-# busstop_access_70 <- weibo_clip$busstop_access_70
-# greenspace_access_25 <- weibo_clip$greenspace_access_25
-# leis_access_20 <- weibo_clip$leis_access_20
-# public_access_15 <- weibo_clip$public_access_15
-# shopping_access_25<- weibo_clip$shopping_access_25
-# 
-# weibo_predict2 <- weibo_clip
-# 
-# weibo_predict2$positive_p <- predict(full2_model, newdata = test)
-# # write.csv(test,"D:\\R sets\\independent-study\\test.csv")
-# ```
-
-
-# Predict based on RANDOM restaurant generated in Arcgis
-# Display different sentiment map of resturants based on change of residential and business zoning
-```{r, message=FALSE, results='hide'}
-
-for (i in seq(5, 25, by=5)) {
-  pl_restaurant_access <- accessibility(r5r_core,
-                                   origins = weibo_clip,
-                                   destinations = grid_points,
-                                   opportunities_colname = "num_pl_restaurant",
-                                   mode = "WALK",
-                                   decay_function = "step",
-                                   cutoffs = i,
-                                   verbose = FALSE) %>%
-    mutate(id = as.numeric(from_id)) %>%
-    select("id", "accessibility")
-
-  colnames(pl_restaurant_access) <- c("id",
-                                   paste("pl_restaurant_access_", i, sep = ""))
-
-  weibo_clip <- weibo_clip %>%
-    left_join(pl_restaurant_access)
-}
-```
-
-```{r, message=FALSE, warning=FALSE, results='hide'}
-weibo_predict <- weibo_clip
-
-weibo_predict$restaurant_access_15 <- weibo_clip$pl_restaurant_access_15
-
-weibo_predict$positive_p <- predict(full2_model, weibo_predict)
-
-ggplot(weibo_predict) +
-  geom_sf(aes(color = weibo_predict$positive_p), size = 0.1) +
-  scale_color_viridis_c() +
-  theme_map()
-
-write.csv(weibo_predict,"D:\\R sets\\independent-study\\predict_pl.csv")
-
-weibo_existing_hist <- ggplot(weibo_clip) +
-  geom_histogram(aes(x = positive_p),
-                 bins = 30)
-
-weibo_predict_hist <- ggplot(weibo_predict) +
-  geom_histogram(aes(x = positive_p),
-                 bins = 30)
-
-weibo_existing_hist
-
-weibo_predict_hist
-
-grid.arrange(weibo_existing_hist, weibo_predict_hist,
-             ncol = 2)
-
-ggplot(weibo_clip) +
-     geom_point(aes(x = restaurant_access_15, y= positive_p))
-ggplot(weibo_predict) +
-     geom_point(aes(x = restaurant_access_15, y= positive_p))
-```
 ## Regression models adding Types of day(Weekday, Weekend and holiday), 
 ## weather (Rainy, Cloudy, snow, smog and sunny), 
 ## and timeslots (early morning, morning, afternoon, sunset, everning and midnight)
@@ -964,6 +881,145 @@ summary(Timeslot8_model)
 # summary(Weather1_model)
 
 ```
+
+
+# Test the prediction function and see whether the prediction based on same data could produce similar sentiment result.
+However, the predicted result lack of data below 0.7.
+
+```{r, message=FALSE, warning=FALSE, results='hide'}
+weibo_predict <- weibo_clip %>%
+  add_predictions(model = Timeslot8_model) %>%
+  select(positive_p, pred)
+
+weibo_predict <- weibo_predict %>%
+  mutate(resid = pred - positive_p)
+
+st_error = sd(weibo_predict$resid)
+
+for (i in 1:1000) {
+  noisy_pred <- weibo_predict$pred + rnorm(length(weibo_predict$pred), mean=0, sd=st_error)
+  noisy_pred = case_when(noisy_pred > 1 ~ 1, 
+                                noisy_pred < 0 ~ 0,
+                                TRUE ~ noisy_pred) 
+  weibo_predict[ , ncol(weibo_predict) + 1] <- noisy_pred 
+  colnames(weibo_predict)[ncol(weibo_predict)] <- paste0("noisy_pred_", i)
+}
+
+
+```
+  
+```{r}
+ggplot(weibo_predict, 
+       aes(x = positive_p, y = noisy_pred_1)) +
+  geom_point(alpha = 0.1, size = 0.1) +
+  theme_minimal()
+```
+
+
+```{r}
+ggplot(weibo_predict) +
+  geom_density(aes(x = positive_p)) +
+  geom_density(aes(x = noisy_pred))
+
+```
+
+
+```{r}
+ggplot(weibo_predict) +
+  geom_sf(aes(color = weibo_predict$positive_p), size = 0.1) +
+  scale_color_viridis_c() +
+  theme_map()
+
+ggplot(weibo_clip) +
+  geom_sf(aes(color = weibo_clip$positive_p), size = 0.1) +
+  scale_color_viridis_c() +
+  theme_map()
+
+# predict
+# weibo_predict$positive_p
+# weibo_clip$positive_p
+# write.csv(weibo_predict,"D:\\R sets\\independent-study\\predict.csv")
+# write.csv(weibo_clip,"D:\\R sets\\independent-study\\exist.csv")
+```
+
+# ```{r, message=FALSE, warning=FALSE, results='hide'}
+# test = data.frame(restaurant_access_15, school_access_25, hospital_access_25, busstop_access_70, greenspace_access_25, leis_access_20, public_access_15, shopping_access_25)
+# 
+# restaurant_access_15 <- weibo_clip$restaurant_access_15
+# school_access_25 <- weibo_clip$school_access_25
+# hospital_access_25 <- weibo_clip$hospital_access_25
+# busstop_access_70 <- weibo_clip$busstop_access_70
+# greenspace_access_25 <- weibo_clip$greenspace_access_25
+# leis_access_20 <- weibo_clip$leis_access_20
+# public_access_15 <- weibo_clip$public_access_15
+# shopping_access_25<- weibo_clip$shopping_access_25
+# 
+# weibo_predict2 <- weibo_clip
+# 
+# weibo_predict2$positive_p <- predict(full2_model, newdata = test)
+# # write.csv(test,"D:\\R sets\\independent-study\\test.csv")
+# ```
+
+
+# Predict based on RANDOM restaurant generated in Arcgis
+# Display different sentiment map of resturants based on change of residential and business zoning
+```{r, message=FALSE, results='hide'}
+
+for (i in seq(5, 25, by=5)) {
+  pl_restaurant_access <- accessibility(r5r_core,
+                                   origins = weibo_clip,
+                                   destinations = grid_points,
+                                   opportunities_colname = "num_pl_restaurant",
+                                   mode = "WALK",
+                                   decay_function = "step",
+                                   cutoffs = i,
+                                   verbose = FALSE) %>%
+    mutate(id = as.numeric(from_id)) %>%
+    select("id", "accessibility")
+
+  colnames(pl_restaurant_access) <- c("id",
+                                   paste("pl_restaurant_access_", i, sep = ""))
+
+  weibo_clip <- weibo_clip %>%
+    left_join(pl_restaurant_access)
+}
+```
+
+```{r, message=FALSE, warning=FALSE, results='hide'}
+weibo_predict <- weibo_clip
+
+weibo_predict$restaurant_access_15 <- weibo_clip$pl_restaurant_access_15
+
+weibo_predict$positive_p <- predict(full2_model, weibo_predict)
+
+ggplot(weibo_predict) +
+  geom_sf(aes(color = weibo_predict$positive_p), size = 0.1) +
+  scale_color_viridis_c() +
+  theme_map()
+
+write.csv(weibo_predict,"D:\\R sets\\independent-study\\predict_pl.csv")
+
+weibo_existing_hist <- ggplot(weibo_clip) +
+  geom_histogram(aes(x = positive_p),
+                 bins = 30)
+
+weibo_predict_hist <- ggplot(weibo_predict) +
+  geom_histogram(aes(x = positive_p),
+                 bins = 30)
+
+weibo_existing_hist
+
+weibo_predict_hist
+
+grid.arrange(weibo_existing_hist, weibo_predict_hist,
+             ncol = 2)
+
+ggplot(weibo_clip) +
+     geom_point(aes(x = restaurant_access_15, y= positive_p))
+ggplot(weibo_predict) +
+     geom_point(aes(x = restaurant_access_15, y= positive_p))
+```
+
 ## Prediction of restaurants location based on change of residential and business zones, noticed the planning documents only reflect the conditions of central area of Jiaxing, I intended to replace the restaurants locations within central area, keeping other locations unchanged.
 
 
