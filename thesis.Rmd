@@ -905,7 +905,7 @@ for (i in 1:1000) {
   colnames(weibo_predict)[ncol(weibo_predict)] <- paste0("noisy_pred_", i)
 }
 
-
+##calculate average
 ```
   
 ```{r}
