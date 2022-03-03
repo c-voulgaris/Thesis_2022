@@ -889,14 +889,14 @@ However, the predicted result lack of data below 0.7.
 ```{r, message=FALSE, warning=FALSE, results='hide'}
 weibo_predict <- weibo_clip %>%
   add_predictions(model = Timeslot8_model) %>%
-  select(positive_p, pred)
+  select(positive_p, pred, geometry)
 
 weibo_predict <- weibo_predict %>%
   mutate(resid = pred - positive_p)
 
 st_error = sd(weibo_predict$resid)
 
-for (i in 1:1000) {
+for (i in 1:10000) {
   noisy_pred <- weibo_predict$pred + rnorm(length(weibo_predict$pred), mean=0, sd=st_error)
   noisy_pred = case_when(noisy_pred > 1 ~ 1, 
                                 noisy_pred < 0 ~ 0,
@@ -905,12 +905,22 @@ for (i in 1:1000) {
   colnames(weibo_predict)[ncol(weibo_predict)] <- paste0("noisy_pred_", i)
 }
 
+
 ##calculate average
+weibo_predict <- weibo_predict %>%
+  mutate(noisy_pred_mean = rowMeans(weibo_predict[ , 5:ncol(weibo_predict)]))
+
+noisy_pred_mean = rowMeans(weibo_predict[ , 5:ncol(weibo_predict)])
+         
+weibo_predict$noisy_pred_mean 
+
+# rowMeans(weibo_predict[ , 5:ncol(weibo_predict)])
+
 ```
   
 ```{r}
 ggplot(weibo_predict, 
-       aes(x = positive_p, y = noisy_pred_1)) +
+       aes(x = positive_p, y = noisy_pred_mean)) +
   geom_point(alpha = 0.1, size = 0.1) +
   theme_minimal()
 ```
@@ -919,19 +929,39 @@ ggplot(weibo_predict,
 ```{r}
 ggplot(weibo_predict) +
   geom_density(aes(x = positive_p)) +
-  geom_density(aes(x = noisy_pred))
+  geom_density(aes(x = noisy_pred)) +
+  geom_density(aes(x = noisy_pred_mean))
+
+ggplot(weibo_clip) +
+  geom_density(aes(x = positive_p)) 
 
 ```
 
 
-```{r}
-ggplot(weibo_predict) +
-  geom_sf(aes(color = weibo_predict$positive_p), size = 0.1) +
+```{r, message=FALSE, warning=FALSE, results='hide'}
+
+weibo_predict_sf = weibo_predict %>%
+  mutate(geom = gsub(geometry,pattern="(\\))|(\\()|c",replacement = ""))%>%
+  tidyr::separate(geom,into=c("lat","lon"),sep=",")%>%
+  st_as_sf(.,coords=c("lat","lon"),crs= 'WGS84')
+
+weibo_clip_sf = weibo_clip %>%
+  mutate(geom = gsub(geometry,pattern="(\\))|(\\()|c",replacement = ""))%>%
+  tidyr::separate(geom,into=c("lat","lon"),sep=",")%>%
+  st_as_sf(.,coords=c("lat","lon"),crs= 'WGS84')
+
+ggplot(weibo_predict_sf) +
+  geom_sf(aes(color = weibo_predict_sf$positive_p), size = 0.1) +
   scale_color_viridis_c() +
   theme_map()
 
-ggplot(weibo_clip) +
-  geom_sf(aes(color = weibo_clip$positive_p), size = 0.1) +
+ggplot(weibo_predict_sf) +
+  geom_sf(aes(color = weibo_predict_sf$noisy_pred_mean), size = 0.1) +
+  scale_color_viridis_c() +
+  theme_map()
+
+ggplot(weibo_clip_sf) +
+  geom_sf(aes(color = weibo_clip_sf$positive_p), size = 0.1) +
   scale_color_viridis_c() +
   theme_map()
 
