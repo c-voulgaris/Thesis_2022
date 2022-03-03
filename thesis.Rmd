@@ -629,26 +629,26 @@ weibo_clip <- read_csv("weibo_clip.csv")
 
 
 ## Comparison between the 15-min accessibility regression model and refined regression model with best threshold
-```{r}
-
-full1_model <- lm(positive_p ~ restaurant_access_15 + school_access_15 + hospital_access_15 + busstop_access_15 + greenspace_access_15 + leis_access_15 + public_access_15 + shopping_access_15, data = weibo_clip)
-
-summary(full1_model)
-
-
-full2_model <- lm(positive_p ~ restaurant_access_15 + school_access_25 + hospital_access_25 + busstop_access_70 + greenspace_access_25 + leis_access_20 + public_access_15 + shopping_access_25, data = weibo_clip)
-
-summary(full2_model)
-
-coeff_names <- c("Costant" = "(Intercept)")
-
-export_summs(full1_model, full2_model,
-             error_format = "(p = {p.value})",
-             error_pos = "same",
-             model.name = c ("Initial",
-                             "Refined"),
-             coef=coeff_names)
-```
+# ```{r}
+# 
+# full1_model <- lm(positive_p ~ restaurant_access_15 + school_access_15 + hospital_access_15 + busstop_access_15 + greenspace_access_15 + leis_access_15 + public_access_15 + shopping_access_15, data = weibo_clip)
+# 
+# summary(full1_model)
+# 
+# 
+# full2_model <- lm(positive_p ~ restaurant_access_15 + school_access_25 + hospital_access_25 + busstop_access_70 + greenspace_access_25 + leis_access_20 + public_access_15 + shopping_access_25, data = weibo_clip)
+# 
+# summary(full2_model)
+# 
+# coeff_names <- c("Costant" = "(Intercept)")
+# 
+# export_summs(full1_model, full2_model,
+#              error_format = "(p = {p.value})",
+#              error_pos = "same",
+#              model.name = c ("Initial",
+#                              "Refined"),
+#              coef=coeff_names)
+# ```
 # ```{r}
 # weibo_clip <- weibo_clip %>%
 #  mutate(log_greenspace = log(greenspace_access), base = 2)
@@ -896,7 +896,7 @@ weibo_predict <- weibo_predict %>%
 
 st_error = sd(weibo_predict$resid)
 
-for (i in 1:10000) {
+for (i in 1:1000) {
   noisy_pred <- weibo_predict$pred + rnorm(length(weibo_predict$pred), mean=0, sd=st_error)
   noisy_pred = case_when(noisy_pred > 1 ~ 1, 
                                 noisy_pred < 0 ~ 0,
@@ -923,6 +923,11 @@ ggplot(weibo_predict,
        aes(x = positive_p, y = noisy_pred_mean)) +
   geom_point(alpha = 0.1, size = 0.1) +
   theme_minimal()
+
+ggplot(weibo_predict, 
+       aes(x = positive_p, y = pred)) +
+  geom_point(alpha = 0.1, size = 0.1) +
+  theme_minimal()
 ```
 
 
@@ -945,11 +950,6 @@ weibo_predict_sf = weibo_predict %>%
   tidyr::separate(geom,into=c("lat","lon"),sep=",")%>%
   st_as_sf(.,coords=c("lat","lon"),crs= 'WGS84')
 
-weibo_clip_sf = weibo_clip %>%
-  mutate(geom = gsub(geometry,pattern="(\\))|(\\()|c",replacement = ""))%>%
-  tidyr::separate(geom,into=c("lat","lon"),sep=",")%>%
-  st_as_sf(.,coords=c("lat","lon"),crs= 'WGS84')
-
 ggplot(weibo_predict_sf) +
   geom_sf(aes(color = weibo_predict_sf$positive_p), size = 0.1) +
   scale_color_viridis_c() +
@@ -960,8 +960,8 @@ ggplot(weibo_predict_sf) +
   scale_color_viridis_c() +
   theme_map()
 
-ggplot(weibo_clip_sf) +
-  geom_sf(aes(color = weibo_clip_sf$positive_p), size = 0.1) +
+ggplot(weibo_predict_sf) +
+  geom_sf(aes(color = weibo_predict_sf$pred), size = 0.1) +
   scale_color_viridis_c() +
   theme_map()
 
