@@ -880,6 +880,46 @@ summary(Timeslot8_model)
 #                   
 # summary(Weather1_model)
 
+
+fully_interacted_model <- lm(positive_p ~ restaurant_access_15 +
+                                          school_access_25 +
+                                          hospital_access_25 +
+                                          busstop_access_70 +
+                                          greenspace_access_25 +
+                                          leis_access_20 +
+                                          public_access_15 +
+                                          shopping_access_25 +
+                                          Type +
+                                          Timeslot +
+                                          Weather +
+                                          Timeslot:restaurant_access_15 +
+                                          Timeslot:school_access_25 +
+                                          Timeslot:hospital_access_25 +
+                                          Timeslot:busstop_access_70 +
+                                          Timeslot:greenspace_access_25 +
+                                          Timeslot:leis_access_20 +
+                                          Timeslot:public_access_15 +
+                                          Timeslot:shopping_access_25 +
+                                          Type:restaurant_access_15 +
+                                          Type:school_access_25 +
+                                          Type:hospital_access_25 +
+                                          Type:busstop_access_70 +
+                                          Type:greenspace_access_25 +
+                                          Type:leis_access_20 +
+                                          Type:public_access_15 +
+                                          Type:shopping_access_25 +
+                                          Weather:restaurant_access_15 +
+                                          Weather:school_access_25 +
+                                          Weather:hospital_access_25 +
+                                          Weather:busstop_access_70 +
+                                          Weather:greenspace_access_25 +
+                                          Weather:leis_access_20 +
+                                          Weather:public_access_15 +
+                                          Weather:shopping_access_25,
+                               data = weibo_clip)
+                  
+summary(fully_interacted_model)
+
 ```
 
 
@@ -888,7 +928,7 @@ However, the predicted result lack of data below 0.7.
 
 ```{r, message=FALSE, warning=FALSE, results='hide'}
 weibo_predict <- weibo_clip %>%
-  add_predictions(model = Timeslot8_model) %>%
+  add_predictions(model = fully_interacted_model) %>%
   select(positive_p, pred, geometry)
 
 weibo_predict <- weibo_predict %>%
@@ -910,9 +950,9 @@ for (i in 1:1000) {
 weibo_predict <- weibo_predict %>%
   mutate(noisy_pred_mean = rowMeans(weibo_predict[ , 5:ncol(weibo_predict)]))
 
-noisy_pred_mean = rowMeans(weibo_predict[ , 5:ncol(weibo_predict)])
+#noisy_pred_mean = rowMeans(weibo_predict[ , 5:ncol(weibo_predict)])
          
-weibo_predict$noisy_pred_mean 
+#weibo_predict$noisy_pred_mean 
 
 # rowMeans(weibo_predict[ , 5:ncol(weibo_predict)])
 
@@ -932,13 +972,29 @@ ggplot(weibo_predict,
 
 
 ```{r}
-ggplot(weibo_predict) +
-  geom_density(aes(x = positive_p)) +
-  geom_density(aes(x = noisy_pred)) +
-  geom_density(aes(x = noisy_pred_mean))
+predict_long <- weibo_predict %>%
+  select(-resid, -geometry) %>%
+  pivot_longer(cols = everything(),
+               names_to = "pred_type") %>%
+   mutate(color = case_when(pred_type == "positive_p" ~ "Observed value",
+                           pred_type == "pred" ~ "Modeled value",
+                           pred_type == "noisy_pred_mean" ~ "Average of simulated values",
+                           TRUE ~ "Simulated value"))
 
-ggplot(weibo_clip) +
-  geom_density(aes(x = positive_p)) 
+
+
+ggplot(predict_long) +
+  geom_density(aes(x = value, 
+                   group = pred_type,
+                   fill = color),
+               alpha = 0.4,
+               color = NA) +
+  scale_alpha(range = c(0, 1)) +
+  scale_fill_brewer(name = "", type = "qual") +
+  theme_minimal()
+
+#ggplot(weibo_clip) +
+#  geom_density(aes(x = positive_p)) 
 
 ```
 
